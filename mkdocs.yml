@@ -1,0 +1,181 @@
+site_name: Dungeon Crawler Carl RPG - Regole
+site_description: Regole del Dungeon Crawler Carl RPG (Core Rulebook, Royal Court Edition), capitoli 1-6
+
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.tooltips
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - toc.follow
+    - header.autohide
+
+  language: it
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Passa alla modalità scura
+      primary: orange
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Passa alla modalità chiara
+      primary: orange
+      accent: lime
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+- Home: index.md
+- Regole base:
+  - Introduzione: 01_basi/introduzione.md
+  - Dadi e Stat: 01_basi/dadi_stat.md
+  - Skill: 01_basi/skill.md
+  - Meccanica base (Check): 01_basi/meccanica_base.md
+  - Tempo e Azioni: 01_basi/tempo_azioni.md
+  - Interazione sociale: 01_basi/interazione_sociale.md
+  - Esplorazione dell'ambiente: 01_basi/esplorazione.md
+- Combattimento e Salute:
+  - Veicoli:
+    - Veicoli: 02_combattimento/veicoli.md
+    - Gare e inseguimenti: 02_combattimento/gare_inseguimenti.md
+    - Pericoli ambientali e Stealth: 02_combattimento/pericoli_ambientali.md
+  - Combattimento:
+    - Principi generali: 02_combattimento/combattimento_generale.md
+    - Il round di combattimento: 02_combattimento/combattimento_round.md
+    - Attacchi, modificatori e danno: 02_combattimento/combattimento_attacchi.md
+    - Crawler contro crawler e PvP: 02_combattimento/crawler_contro_crawler.md
+    - Regole dall'esempio di combattimento: 02_combattimento/combattimento_esempio.md
+  - Salute:
+    - Salute (Health Menu): 02_combattimento/salute.md
+    - Buff, Debuff e Injury: 02_combattimento/buff_debuff.md
+  - Equipaggiamento: 02_combattimento/equipaggiamento.md
+- Creazione del personaggio:
+  - Panoramica della creazione: 04_creazione/panoramica.md
+  - 'Passo 1: Background': 04_creazione/passo_01_background.md
+  - 'Passo 2: Arma e Skill di combattimento': 04_creazione/passo_02_arma.md
+  - 'Passi 3-4: Stat ed Evade': 04_creazione/passo_03_04_stat_evade.md
+  - 'Passi 5-8: Health, Mana, Hotlist, Move, AI Favor': 04_creazione/passo_05_08_salute_mana_movimento.md
+  - 'Passi 9-10: Trauma ed equipaggiamento': 04_creazione/passo_09_10_trauma_equipaggiamento.md
+  - Crawler di Third Floor e oltre: 04_creazione/terza_floor_creazione.md
+  - Bottino iniziale: 04_creazione/bottino_iniziale.md
+  - Tutorial Floor Experiences (regole): 04_creazione/esperienze_tutorial.md
+  - 'Esperienze: Interazioni, Twists, Mobs': 04_creazione/tabelle_esperienza_1.md
+  - 'Esperienze: Luoghi, Trappole, Interview': 04_creazione/tabelle_esperienza_2.md
+  - 'Esperienze: Third e Fourth Floor': 04_creazione/tabelle_esperienza_3.md
+  - Selezione di Race e Class: 04_creazione/selezione_race_class.md
+- Race:
+  - Selezione di Race e Class: 05_razze/selezione_race.md
+  - Riepilogo delle Race: 05_razze/riepilogo_race.md
+  - 'Earth-based Races: Amazonian - Doppelgänger': 05_razze/earth_based_a_d.md
+  - 'Earth-based Races: Dwarf - Igneous': 05_razze/earth_based_d_i.md
+  - 'Earth-based Races: Lajabless - Tigran': 05_razze/earth_based_l_t.md
+  - Alien Races: 05_razze/alien_races.md
+- Class:
+  - Introduzione e riepilogo Class: 06_classi/introduzione.md
+  - Class Arcanist: 06_classi/arcanist.md
+  - Class Barbarian: 06_classi/barbarian.md
+  - Class Bard: 06_classi/bard.md
+  - Class Cleric: 06_classi/cleric.md
+  - Class Druid: 06_classi/druid.md
+  - Class Fighter: 06_classi/fighter.md
+  - Class Mage: 06_classi/mage.md
+  - Class Monk: 06_classi/monk.md
+  - Class Paladin: 06_classi/paladin.md
+  - Class Rogue: 06_classi/rogue.md
+  - Sistema Point Build (Race e Class): 06_classi/punti_build.md
+- Divinità e avanzamento:
+  - Divinità e culto: 07_divinita_avanzamento/culto_divinita.md
+  - Profili delle divinità: 07_divinita_avanzamento/profili_divinita.md
+  - Avanzamento del crawler: 07_divinita_avanzamento/avanzamento_crawler.md
+  - Grinding: 07_divinita_avanzamento/grinding.md
+- Skill:
+  - Skill - Regole generali: 08_skill/skill_regole_generali.md
+  - Attack Skill:
+    - Regole e riepilogo: 08_skill/attack_skill_indice.md
+    - Armi da mischia e Strike Skill: 08_skill/attack_armi_mischia.md
+    - Hand-to-Hand: 08_skill/attack_hand_to_hand.md
+    - Ranged e Reach: 08_skill/attack_distanza_reach.md
+    - Esplosivi e fumo: 08_skill/attack_esplosivi_fumo.md
+  - Utility Skill:
+    - Regole e riepilogo: 08_skill/utility_skill_indice.md
+    - Utility Skill A-C: 08_skill/utility_skill_a_c.md
+    - Utility Skill D-G: 08_skill/utility_skill_d_g.md
+    - Utility Skill H-P: 08_skill/utility_skill_h_p.md
+    - Utility Skill R-Z: 08_skill/utility_skill_r_z.md
+- Spell:
+  - Spell - regole generali e riepilogo: 09_spell_loot/spell_regole.md
+  - Spell A-F: 09_spell_loot/spell_a_f.md
+  - Spell G-M: 09_spell_loot/spell_g_m.md
+  - Spell N-R: 09_spell_loot/spell_n_r.md
+  - Spell S-Z: 09_spell_loot/spell_s_z.md
+- Loot:
+  - Loot: 09_spell_loot/loot.md
+  - Oggetti magici casuali: 09_spell_loot/oggetti_casuali.md
+- Crafting, Pet, Mount e Minion:
+  - Crafting - basi e crafting tables: 10_crafting_pet/crafting_base.md
+  - Crafting - incantamento e Skill Check: 10_crafting_pet/crafting_incantamento.md
+  - Crafting specialistico: 10_crafting_pet/crafting_specialistico.md
+  - Pets - acquisizione e attitudine: 10_crafting_pet/pets_acquisizione.md
+  - Pets - ruolo, statistiche e comandi: 10_crafting_pet/pets_regole.md
+  - Mounts: 10_crafting_pet/mounts.md
+  - Minions: 10_crafting_pet/minions.md
+- Il Dungeon:
+  - Interfaccia del Crawler: 03_dungeon/interfaccia_crawler.md
+  - Inventory del Crawler: 03_dungeon/inventario_crawler.md
+  - Achievement e Loot Box: 03_dungeon/achievement_loot_box.md
+  - Popularity e Tutorial Levels: 03_dungeon/popolarita_tutorial.md
+  - Desperado Club: 03_dungeon/club_desperado.md
+  - Club Vanquisher: 03_dungeon/club_vanquisher.md
+  - Interviste e Gods: 03_dungeon/interviste_e_dei.md
+  - 'Third Floor: Over City': 03_dungeon/piano_03_over_city.md
+  - 'Fourth Floor: Iron Tangle': 03_dungeon/piano_04_iron_tangle.md
+  - 'Fifth Floor: Bubbles': 03_dungeon/piano_05_bubbles.md
+- Popolarità, Sponsor e Interviste:
+  - Popolarità: 12_popolarita_interviste/popolarita.md
+  - The Top Ten: 12_popolarita_interviste/top_ten.md
+  - Sponsor: 12_popolarita_interviste/sponsor.md
+  - Interview Shows - Regole generali: 12_popolarita_interviste/interview_show_regole.md
+  - Interview Shows - Show specifiche: 12_popolarita_interviste/interview_show_specifiche.md
+- PNG, Divinità e Artefatti:
+  - PNG del dungeon: 13_png_divinita_artefatti/png_dungeon.md
+  - Divinità: 13_png_divinita_artefatti/divinita.md
+  - Patronato dei Bardi: 13_png_divinita_artefatti/patronato_bardi.md
+  - Artefatti di trama e libri: 13_png_divinita_artefatti/artefatti_trama_libri.md
+  - Artefatti della Divine Suffering: 13_png_divinita_artefatti/artefatti_sofferenza_divina.md
+  - Artefatti divini, cristalli e Faction Wars: 13_png_divinita_artefatti/artefatti_divini_cristalli_fazioni.md
+- Guida del Game Master:
+  - Ruolo del GM e struttura del gioco: 11_game_master/ruolo_sessioni.md
+  - Formazione del gruppo e Session Zero: 11_game_master/gruppo_session_zero.md
+  - Condurre il gioco e i combattimenti: 11_game_master/gestione_partita.md
+  - Scene sociali, enigmi e trappole: 11_game_master/scene_sociali_trappole.md
+  - Montaggi e Grinding: 11_game_master/montaggi_grinding.md
+  - Neighborhood, Quest e Floor: 11_game_master/neighborhood_quest_floor.md
+  - Stat Block e scaling degli encounter: 11_game_master/stat_block_scaling.md
+  - Creare Mob e Boss: 11_game_master/creare_mob_boss.md
+  - Gestione di regole, patch e morte dei PC: 11_game_master/arbitrato_patch_morte.md
