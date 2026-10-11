@@ -1,0 +1,5421 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Regole del Dungeon Crawler Carl RPG (Core Rulebook, Royal Court Edition), capitoli 1-6">
+      
+      
+      
+      
+        <link rel="prev" href="../stat_block_scaling/">
+      
+      
+        <link rel="next" href="../arbitrato_patch_morte/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Creare Mob e Boss - Dungeon Crawler Carl RPG - Regole</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#creare-mob-e-boss-create-your-own-mobs-and-bosses" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="Dungeon Crawler Carl RPG - Regole" class="md-header__button md-logo" aria-label="Dungeon Crawler Carl RPG - Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dungeon Crawler Carl RPG - Regole
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Creare Mob e Boss
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Passa alla modalità scura"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passa alla modalità scura" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Passa alla modalità chiara"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passa alla modalità chiara" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Condividi" aria-label="Condividi" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dungeon Crawler Carl RPG - Regole" class="md-nav__button md-logo" aria-label="Dungeon Crawler Carl RPG - Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Dungeon Crawler Carl RPG - Regole
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../riferimento_rapido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Riferimento rapido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole base
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole base
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/introduzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/dadi_stat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dadi e Stat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/skill/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skill
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/meccanica_base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meccanica base (Check)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/tempo_azioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tempo e Azioni
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/interazione_sociale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interazione sociale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/esplorazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esplorazione dell'ambiente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combattimento e Salute
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combattimento e Salute
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veicoli
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Veicoli
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/veicoli/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veicoli
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/gare_inseguimenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gare e inseguimenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/pericoli_ambientali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pericoli ambientali e Stealth
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combattimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combattimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/combattimento_generale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Principi generali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/combattimento_round/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Il round di combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/combattimento_attacchi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attacchi, modificatori e danno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/crawler_contro_crawler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crawler contro crawler e PvP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/combattimento_esempio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole dall'esempio di combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Salute
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Salute
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/salute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Salute (Health Menu)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/buff_debuff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Buff, Debuff e Injury
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/equipaggiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipaggiamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creazione del personaggio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Creazione del personaggio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/panoramica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panoramica della creazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_01_background/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passo 1: Background
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_02_arma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passo 2: Arma e Skill di combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_03_04_stat_evade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passi 3-4: Stat ed Evade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_05_08_salute_mana_movimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passi 5-8: Health, Mana, Hotlist, Move, AI Favor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_09_10_trauma_equipaggiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passi 9-10: Trauma ed equipaggiamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/terza_floor_creazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crawler di Third Floor e oltre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/bottino_iniziale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bottino iniziale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/esperienze_tutorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial Floor Experiences (regole)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/tabelle_esperienza_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esperienze: Interazioni, Twists, Mobs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/tabelle_esperienza_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esperienze: Luoghi, Trappole, Interview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/tabelle_esperienza_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esperienze: Third e Fourth Floor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/selezione_race_class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selezione di Race e Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Race
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Race
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/selezione_race/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selezione di Race e Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/riepilogo_race/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Riepilogo delle Race
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/earth_based_a_d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Earth-based Races: Amazonian - Doppelgänger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/earth_based_d_i/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Earth-based Races: Dwarf - Igneous
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/earth_based_l_t/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Earth-based Races: Lajabless - Tigran
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/alien_races/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alien Races
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Class
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/introduzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione e riepilogo Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/arcanist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Arcanist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/mage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Mage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_classi/punti_build/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema Point Build (Race e Class)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divinità e avanzamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Divinità e avanzamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_divinita_avanzamento/culto_divinita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divinità e culto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_divinita_avanzamento/profili_divinita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Profili delle divinità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_divinita_avanzamento/avanzamento_crawler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Avanzamento del crawler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_divinita_avanzamento/grinding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grinding
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skill
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Skill
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/skill_regole_generali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skill - Regole generali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attack Skill
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Attack Skill
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_skill_indice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole e riepilogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_armi_mischia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armi da mischia e Strike Skill
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_hand_to_hand/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hand-to-Hand
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_distanza_reach/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranged e Reach
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_esplosivi_fumo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esplosivi e fumo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Utility Skill
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_indice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole e riepilogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_a_c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill A-C
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_d_g/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill D-G
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_h_p/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill H-P
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_r_z/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill R-Z
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spell
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell - regole generali e riepilogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_a_f/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell A-F
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_g_m/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell G-M
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_n_r/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell N-R
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_s_z/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell S-Z
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Loot
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/loot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/oggetti_casuali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oggetti magici casuali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting, Pet, Mount e Minion
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Crafting, Pet, Mount e Minion
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/crafting_base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting - basi e crafting tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/crafting_incantamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting - incantamento e Skill Check
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/crafting_specialistico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting specialistico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/pets_acquisizione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pets - acquisizione e attitudine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/pets_regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pets - ruolo, statistiche e comandi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/mounts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mounts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/minions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Il Dungeon
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Il Dungeon
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/interfaccia_crawler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interfaccia del Crawler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/inventario_crawler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory del Crawler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/achievement_loot_box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Achievement e Loot Box
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/popolarita_tutorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Popularity e Tutorial Levels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/club_desperado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Desperado Club
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/club_vanquisher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Club Vanquisher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/interviste_e_dei/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interviste e Gods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/piano_03_over_city/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Third Floor: Over City
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/piano_04_iron_tangle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fourth Floor: Iron Tangle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/piano_05_bubbles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fifth Floor: Bubbles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Popolarità, Sponsor e Interviste
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Popolarità, Sponsor e Interviste
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/popolarita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Popolarità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/top_ten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Top Ten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/sponsor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sponsor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/interview_show_regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Shows - Regole generali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/interview_show_specifiche/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Shows - Show specifiche
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PNG, Divinità e Artefatti
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PNG, Divinità e Artefatti
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/png_dungeon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PNG del dungeon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/divinita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divinità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/patronato_bardi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patronato dei Bardi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/artefatti_trama_libri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatti di trama e libri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/artefatti_sofferenza_divina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatti della Divine Suffering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/artefatti_divini_cristalli_fazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatti divini, cristalli e Faction Wars
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guida del Game Master
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guida del Game Master
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ruolo_sessioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ruolo del GM e struttura del gioco
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gruppo_session_zero/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formazione del gruppo e Session Zero
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gestione_partita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Condurre il gioco e i combattimenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scene_sociali_trappole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scene sociali, enigmi e trappole
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../montaggi_grinding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Montaggi e Grinding
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../neighborhood_quest_floor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Neighborhood, Quest e Floor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stat_block_scaling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stat Block e scaling degli encounter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creare Mob e Boss
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creare Mob e Boss
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principi-di-progettazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principi di progettazione
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedura-di-creazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Procedura di creazione
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Procedura di creazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Name
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Size
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-bar-slots-mob" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health Bar Slots (Mob)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-bar-slots-boss" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health Bar Slots (Boss)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Health Bar Slots (Boss)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabella-50-boss-severity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella 50: Boss Severity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabella-51-mob-level-floor-damage-dice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella 51: Mob Level, Floor &amp; Damage Dice
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surprise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Surprise
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#move" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Move
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damage-resistance-dr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Damage Resistance (DR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#riepilogo-delle-formule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Riepilogo delle formule
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arbitrato_patch_morte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestione di regole, patch e morte dei PC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indice dei tag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principi-di-progettazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principi di progettazione
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedura-di-creazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Procedura di creazione
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Procedura di creazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Name
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Size
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-bar-slots-mob" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health Bar Slots (Mob)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-bar-slots-boss" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health Bar Slots (Boss)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Health Bar Slots (Boss)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabella-50-boss-severity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella 50: Boss Severity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabella-51-mob-level-floor-damage-dice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella 51: Mob Level, Floor &amp; Damage Dice
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surprise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Surprise
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#move" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Move
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damage-resistance-dr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Damage Resistance (DR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#riepilogo-delle-formule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Riepilogo delle formule
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigazione" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../ruolo_sessioni/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Guida del Game Master
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:da-verificare" class="md-tag">Da verificare</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:game-master" class="md-tag">Game Master</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:mob-e-boss" class="md-tag">Mob e Boss</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:tabelle" class="md-tag">Tabelle</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="creare-mob-e-boss-create-your-own-mobs-and-bosses">Creare <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> e Boss (Create Your Own <abbr title="Creature ostili controllate dal GM. Il GM non tira i dadi per i Mob.">Mobs</abbr> and Bosses)<a class="headerlink" href="#creare-mob-e-boss-create-your-own-mobs-and-bosses" title="Permanent link">&para;</a></h1>
+<p><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> e Boss sono definiti principalmente da Stat e Attack: non hanno Skill né Traumas. Un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> o Boss si documenta in uno Stat Block (vedi la sezione <em>Stat Block e scaling degli encounter</em>).</p>
+<h2 id="principi-di-progettazione">Principi di progettazione<a class="headerlink" href="#principi-di-progettazione" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Considerare il Floor in cui compare il <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> e i tipi di encounter che sfidano il gruppo.</li>
+<li>Copiare le schede dei crawler e individuare modi di impiegare le loro Skill meno usate.</li>
+<li>Se il gruppo ha una <strong>Resistance</strong> o un'<strong>Immunity</strong> a un tipo di danno, il gruppo dovrebbe incontrare <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> con quel tipo di danno almeno una volta per Floor.</li>
+<li><strong>Spostamento di un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> a un altro Floor</strong>: se un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> creato per un Floor non viene usato, può comparire in un Floor successivo; diversi valori dello Stat Block ("+F") aumentano automaticamente del nuovo Floor Number. Un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> di Level basso sul nuovo Floor dovrebbe comparire in numero maggiore rispetto a quanto pianificato.</li>
+<li><strong>Azioni</strong>: un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> dispone di <strong>1 Move Action e 1 altra Action</strong> (tipicamente un Attack); può muoversi due volte se necessario. Un <strong>Boss dispone di 1 Action per crawler</strong>, anche se un crawler muore a metà scontro, e può usarla per qualsiasi cosa.</li>
+</ul>
+<p><em>Fonte: manuale, p. 270.</em></p>
+<h2 id="procedura-di-creazione">Procedura di creazione<a class="headerlink" href="#procedura-di-creazione" title="Permanent link">&para;</a></h2>
+<p>Campi dello Stat Block, nell'ordine del manuale:</p>
+<h3 id="name">Name<a class="headerlink" href="#name" title="Permanent link">&para;</a></h3>
+<p>Ogni <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> ha un nome originale.</p>
+<h3 id="size">Size<a class="headerlink" href="#size" title="Permanent link">&para;</a></h3>
+<p>La taglia è relativa. Indicare il nome della taglia e il valore numerico associato sotto il nome del <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> (esempio: Large (5)). La taglia influisce sugli Attack quando c'è grande differenza di taglia tra combattenti (vedi <em>Additional Combat Modifiers</em>, pp. 84–85).</p>
+<h3 id="type">Type<a class="headerlink" href="#type" title="Permanent link">&para;</a></h3>
+<p>Solo descrittivo. I tipi più comuni: Beastly, Undead, Humanoid, Ooze; altri esempi: Trapezoidal, Patchwork.</p>
+<h3 id="health-bar-slots-mob">Health Bar Slots (<abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>)<a class="headerlink" href="#health-bar-slots-mob" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Il numero di slot <abbr title="Health Bar. Indicatore di salute a slot; i crawler ne hanno 10.">HB</abbr> è uguale al <strong>Level del <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>, fino a un massimo di 10</strong>.</li>
+<li>Dentro ogni slot si scrive il <strong><abbr title="Constitution. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">CON</abbr> <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr></strong> del <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>.</li>
+<li>Assegnare le percentuali a ciascuno slot, con <strong>100% nello slot più a destra</strong>: dividere 100 per il numero di slot e arrotondare al numero intero più vicino; tale valore è la percentuale di ogni slot, elencate in ordine da sinistra a destra. È ammesso arrotondare per eccesso o per difetto in modo non uniforme per chiudere a 100% sull'ultimo slot.</li>
+<li>Le percentuali non devono essere esatte, ma vanno comunicate ai crawler, che vedono le Health Bar sopra i <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Esempio</p>
+<p><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> di Level 6: 6 slot <abbr title="Health Bar. Indicatore di salute a slot; i crawler ne hanno 10.">HB</abbr>. 100 ÷ 6 = 16,66: le percentuali crescono da sinistra a destra con incrementi di 16% o 17% (sommando ogni incremento al totale), in modo da terminare con 100% a destra. Non è corretto arrotondare ogni incremento a 17%, perché si avrebbe un salto da 85% a 102%.</p>
+<p><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> di Level 3 (Bad Llama): 3 slot, percentuali 33% – 67% – 100%, ciascuno slot contenente il <abbr title="Constitution. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">CON</abbr> <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr>.</p>
+</div>
+<h3 id="health-bar-slots-boss">Health Bar Slots (Boss)<a class="headerlink" href="#health-bar-slots-boss" title="Permanent link">&para;</a></h3>
+<p>I Boss usano la Tabella 50 per slot <abbr title="Health Bar. Indicatore di salute a slot; i crawler ne hanno 10.">HB</abbr> e punti Stat.</p>
+<h4 id="tabella-50-boss-severity">Tabella 50: Boss Severity<a class="headerlink" href="#tabella-50-boss-severity" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Boss <abbr title="Livello di valore e rarità di loot box e oggetti (sei Tier standard).">Tier</abbr></th>
+<th>Neighborhood</th>
+<th>Borough</th>
+<th>City</th>
+<th>Province</th>
+<th>Country</th>
+<th>Floor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stats per Level</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>8</td>
+<td>10</td>
+</tr>
+<tr>
+<td><abbr title="Health Bar. Indicatore di salute a slot; i crawler ne hanno 10.">HB</abbr> Slots</td>
+<td>10 + F</td>
+<td>15 + F</td>
+<td>20 + F</td>
+<td>25 + F</td>
+<td>30 + F</td>
+<td>40 + F</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Da verificare</p>
+<p>Il manuale non specifica il valore contenuto negli slot <abbr title="Health Bar. Indicatore di salute a slot; i crawler ne hanno 10.">HB</abbr> dei Boss né applica esplicitamente alla riga "Stats per Level" una formula: si presume (per analogia con i <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>, che hanno 3 punti Stat per Level) che "Stats per Level" indichi i punti Stat per Level del Boss, da sommare alla base 5 per Stat. Il testo rimanda alla Tabella 50 con "Bosses work a little bit differently" e "See Table 50 for their additional stat points".</p>
+</div>
+<h3 id="level">Level<a class="headerlink" href="#level" title="Permanent link">&para;</a></h3>
+<p>Il <abbr title="Game Master.">GM</abbr> sceglie liberamente il Level, ma le seguenti indicazioni permettono ai crawler di superare lo scontro. I Floor hanno un intervallo tipico di Level dei <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> (Tabella 51).</p>
+<p><strong>Boss</strong></p>
+<ul>
+<li>Costruire le statistiche del Boss come quelle di un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> del Floor, ma usando la <strong>riga successiva</strong> della Tabella 51 (esempio: un Boss del Third Floor ha forza paragonabile a un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> del Fifth Floor).</li>
+<li><strong>Neighborhood Boss</strong>: estremo basso dell'intervallo.</li>
+<li><strong>Borough Boss</strong>: metà dell'intervallo.</li>
+<li><strong>City Boss</strong>: estremo alto dell'intervallo, oppure l'estremo basso per il Floor successivo ("the next floor down").</li>
+<li><strong>Province o Country Boss</strong>: possono essere ancora più forti.</li>
+<li>Il Level di un Boss è quasi sempre superiore alla media dei crawler; i Boss non compaiono in gruppi numerosi: sono di norma unici (possono avere <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> con sé).</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Esempio</p>
+<p>Sul Third Floor i <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> sono tipicamente Level 10–29. I Boss variano quindi tra Level 30 e 59 (un Floor più in alto nella Tabella 51): Neighborhood Boss nei Level bassi 30, Borough Boss nei bassi 40, City Boss nei 50, e così via.</p>
+</div>
+<p><strong><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr></strong></p>
+<ul>
+<li>Un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> di Level 93 può comparire in qualsiasi momento.</li>
+<li><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> di Level basso possono comparire in Floor in cui sono facili: devono comparire in <strong>grandi numeri</strong>.</li>
+<li><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> di Level uguale o superiore ai crawler: un gruppo pari al numero dei membri del party è tipico.</li>
+</ul>
+<h4 id="tabella-51-mob-level-floor-damage-dice">Tabella 51: <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> Level, Floor &amp; Damage Dice<a class="headerlink" href="#tabella-51-mob-level-floor-damage-dice" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> Level</th>
+<th>Dice of Damage</th>
+<th>Floor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1–4</td>
+<td>1d</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5–9</td>
+<td>2d</td>
+<td>2</td>
+</tr>
+<tr>
+<td>10–29</td>
+<td>3d</td>
+<td>3–4</td>
+</tr>
+<tr>
+<td>30–59</td>
+<td>5d</td>
+<td>5–7</td>
+</tr>
+<tr>
+<td>60–99</td>
+<td>7d</td>
+<td>8–10</td>
+</tr>
+<tr>
+<td>100–159</td>
+<td>9d</td>
+<td>11–13</td>
+</tr>
+<tr>
+<td>160–249</td>
+<td>12d</td>
+<td>14–16</td>
+</tr>
+<tr>
+<td>250+</td>
+<td>15d</td>
+<td>17–18</td>
+</tr>
+</tbody>
+</table>
+<h3 id="surprise">Surprise<a class="headerlink" href="#surprise" title="Permanent link">&para;</a></h3>
+<p>Surprise è un <abbr title="d20 + Stat Mod + Rank della Skill, da confrontare con la Difficulty.">Skill Check</abbr> <abbr title="Intelligence. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">INT</abbr>-<abbr title="Check contrapposto a un antagonista. Difficulty: 10 + Stat Mod dell'antagonista + Floor Number.">Opposed</abbr> (con <a class="dcc-auto" href="../../08_skill/utility_skill_a_c/#ambush">Ambush</a>, <a class="dcc-auto" href="../../08_skill/utility_skill_r_z/#stealth">Stealth</a> o Skill correlata) per sorprendere un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>.</p>
+<ul>
+<li>Formula: <strong>Surprise = 10 + <abbr title="Intelligence. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">INT</abbr> <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr>, seguito da +F.</strong></li>
+<li>Calcolare dopo aver definito le Stat.</li>
+<li>I crawler possono sorprendere solo <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> ignari della loro presenza. Se il gruppo si imbatte in un gruppo di <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>, o i <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> sono in attesa, non è possibile tentare la sorpresa.</li>
+</ul>
+<h3 id="evade">Evade<a class="headerlink" href="#evade" title="Permanent link">&para;</a></h3>
+<p>Evade è la <abbr title="Valore che il totale del Check deve eguagliare o superare.">Difficulty</abbr> degli Attack dei crawler contro il <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>.</p>
+<ul>
+<li>Formula: <strong>Evade = 10 + <abbr title="Dexterity. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">DEX</abbr> <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr>, seguito da +F.</strong></li>
+<li>Il "+F" viene aggiunto in gioco in base al Floor corrente.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Esempio</p>
+<p><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> con <abbr title="Intelligence. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">INT</abbr> <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr> +2 e <abbr title="Dexterity. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">DEX</abbr> <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr> +4: Surprise 12+F; Evade 14+F.</p>
+</div>
+<h3 id="move">Move<a class="headerlink" href="#move" title="Permanent link">&para;</a></h3>
+<p>Il valore tipico per <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> umanoidi bipedi è <strong>20+S</strong>; sono ammessi valori superiori o inferiori. Con le mappe di battaglia considerare il terreno: in aree aperte gli Attack a distanza infliggono molto danno prima che <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> lenti si avvicinino; in aree affollate con scarsa visibilità gli Attack in mischia sono più letali.</p>
+<h3 id="damage-resistance-dr">Damage Resistance (<abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr>)<a class="headerlink" href="#damage-resistance-dr" title="Permanent link">&para;</a></h3>
+<ul>
+<li><abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr> base del <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> = <strong>Floor Number</strong>.</li>
+<li><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> con armatura vera (cuoio, maglia) o naturale (pelle spessa, placche): <strong>+1 o +2 <abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr></strong>.</li>
+<li><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> incantatori: <abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr> di norma <strong>1 o 2 in meno</strong> rispetto alla norma.</li>
+<li>Un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> annunciato dal System AI come "proveniente da un altro Floor" usa come <abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr> base quella del <strong>suo Floor di origine</strong>, non quello corrente (esempio: un Rage Elemental del Thirteenth Floor sul Second Floor ha ancora <abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr> 13).</li>
+<li>Se il <abbr title="Game Master.">GM</abbr> sposta intenzionalmente <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> tra Floor, usa il Floor Number corrente.</li>
+</ul>
+<h3 id="stats">Stats<a class="headerlink" href="#stats" title="Permanent link">&para;</a></h3>
+<ul>
+<li><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>: <strong>base 1 in ogni Stat e 3 punti Stat da spendere per Level</strong> (esempio: un <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> di Level 6 ha 18 punti da distribuire). Il <abbr title="Game Master.">GM</abbr> decide la distribuzione.</li>
+<li>Boss: <strong>base 5 in ogni Stat</strong>; vedi la Tabella 50 per i punti aggiuntivi.</li>
+<li>Scrivere il valore di ogni Stat e il relativo <abbr title="Modificatore ricavato dal punteggio di una Stat (Tabella 2).">Stat Mod</abbr> tra parentesi.</li>
+<li>Indicazioni: <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> con attacchi naturali o armi traggono vantaggio da <abbr title="Strength. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">STR</abbr> elevata; gli incantatori richiedono <abbr title="Intelligence. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">INT</abbr> elevata.</li>
+</ul>
+<h3 id="attacks">Attacks<a class="headerlink" href="#attacks" title="Permanent link">&para;</a></h3>
+<ul>
+<li><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> di Level basso hanno spesso un solo Attack principale. <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> di Level superiore hanno più Attack; i Boss ne hanno di più.</li>
+<li>I dadi di danno determinano la letalità. Il dado standard è <strong>d6</strong>; il <abbr title="Game Master.">GM</abbr> può variare.</li>
+<li>Se i crawler dominano i <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr>, aumentare i numeri finché lo scontro diventa una sfida senza essere gravoso (vedi la sezione <em>Gestione di regole, patch e morte dei <abbr title="Player character. Il personaggio controllato da un giocatore (crawler).">PC</abbr></em>).</li>
+</ul>
+<p><strong>Regole per i dadi di danno</strong></p>
+<ul>
+<li><strong>Attack principale</strong>: usa i dadi di danno completi della Tabella 51.</li>
+<li><strong>Altri Attack</strong> che aggiungono solo un nuovo tipo di danno: spesso usano anch'essi il dado di danno completo (esempio: bestia di Level 11 con Bite (Piercing) e Trample (Bludgeoning) infligge 3d con entrambi).</li>
+<li><strong>Attack ad area</strong> (Blast, Burst, Cone, Line): di norma perdono <strong>1d</strong> dal numero completo di dadi. Se il danno è basso, l'area ha portata e raggio ampi; se il danno è buono, l'area è più limitata. Aggiungere <strong>Splash damage</strong> (metà danno) permette di colpire l'intero gruppo senza usare un ampio Blast.</li>
+<li><strong>Attack con effetti extra</strong> innescati quando il crawler perde slot <abbr title="Health Bar. Indicatore di salute a slot; i crawler ne hanno 10.">HB</abbr> o fallisce nettamente un Evade Check: di norma perdono anch'essi <strong>1d</strong>.</li>
+<li><strong>Attack che applicano automaticamente un Debuff</strong>: non devono infliggere molto danno (spesso solo d4).</li>
+<li>Se i crawler non subiscono danno da <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> simili, aumentare i dadi di <strong>un passo</strong>.</li>
+<li>Se ogni Debuff o effetto aggiuntivo è subordinato a un <strong>Major Evade Fail</strong> o peggio, tali effetti si verificheranno raramente: per Attack a basso danno, applicare i Debuff a ogni colpo a segno o alla perdita di 1 o più slot <abbr title="Health Bar. Indicatore di salute a slot; i crawler ne hanno 10.">HB</abbr>. Se il danno è alto, i crawler dovranno probabilmente effettuare l'Evade.</li>
+<li>Nota: i crawler tendono a ritenere non conveniente effettuare l'Evade contro Attack a basso danno, a meno che ne arrivino 3 o più.</li>
+</ul>
+<h3 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h3>
+<p>Le note sotto gli Attack contengono: abilità aggiuntive, strategia, ordine degli Attack, effetti passivi, interattivi o innescati, e tutto ciò che riguarda l'encounter e non appartiene allo Stat Block. I Boss hanno quasi sempre note. Le Notes possono contenere <strong>debolezze</strong> che i crawler possono scoprire con l'azione Look for Clues.</p>
+<p><em>Fonte: manuale, p. 270–273.</em></p>
+<h2 id="riepilogo-delle-formule">Riepilogo delle formule<a class="headerlink" href="#riepilogo-delle-formule" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Valore</th>
+<th><abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr></th>
+<th>Boss</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Slot Health Bar</td>
+<td>Level (max 10); ogni slot contiene il <abbr title="Constitution. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">CON</abbr> <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr></td>
+<td>Tabella 50 (10+F ... 40+F, secondo il Boss <abbr title="Livello di valore e rarità di loot box e oggetti (sei Tier standard).">Tier</abbr>)</td>
+</tr>
+<tr>
+<td>Punti Stat</td>
+<td>1 base per Stat + 3 per Level</td>
+<td>5 base per Stat + punti aggiuntivi della Tabella 50</td>
+</tr>
+<tr>
+<td>Surprise</td>
+<td>10 + <abbr title="Intelligence. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">INT</abbr> <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr> + F</td>
+<td>non specificato separatamente</td>
+</tr>
+<tr>
+<td>Evade</td>
+<td>10 + <abbr title="Dexterity. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">DEX</abbr> <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr> + F</td>
+<td>non specificato separatamente</td>
+</tr>
+<tr>
+<td>Move</td>
+<td>20+S tipico per umanoidi bipedi</td>
+<td>non specificato separatamente</td>
+</tr>
+<tr>
+<td><abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr></td>
+<td>Floor Number (+1/+2 armatura, -1/-2 incantatori)</td>
+<td>non specificato separatamente</td>
+</tr>
+<tr>
+<td>Dadi di danno (Attack principale)</td>
+<td>Tabella 51 per Level</td>
+<td>non specificato separatamente</td>
+</tr>
+<tr>
+<td>Azioni</td>
+<td>1 Move Action + 1 altra Action</td>
+<td>1 Action per crawler</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: manuale, p. 270–273.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+          
+          <a href="../stat_block_scaling/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Stat Block e scaling degli encounter">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              <div class="md-ellipsis">
+                Stat Block e scaling degli encounter
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../arbitrato_patch_morte/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Gestione di regole, patch e morte dei PC">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Gestione di regole, patch e morte dei PC
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.path", "navigation.sections", "navigation.top", "navigation.footer", "content.code.copy", "toc.follow", "search.share", "header.autohide"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/enhance.js"></script>
+      
+    
+  </body>
+</html>

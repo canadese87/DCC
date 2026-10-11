@@ -1,0 +1,5510 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Regole del Dungeon Crawler Carl RPG (Core Rulebook, Royal Court Edition), capitoli 1-6">
+      
+      
+      
+      
+        <link rel="prev" href="../rogue/">
+      
+      
+        <link rel="next" href="../../07_divinita_avanzamento/culto_divinita/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Sistema Point Build (Race e Class) - Dungeon Crawler Carl RPG - Regole</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sistema-race-class-point-build" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="Dungeon Crawler Carl RPG - Regole" class="md-header__button md-logo" aria-label="Dungeon Crawler Carl RPG - Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dungeon Crawler Carl RPG - Regole
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sistema Point Build (Race e Class)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Passa alla modalità scura"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passa alla modalità scura" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Passa alla modalità chiara"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passa alla modalità chiara" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Condividi" aria-label="Condividi" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dungeon Crawler Carl RPG - Regole" class="md-nav__button md-logo" aria-label="Dungeon Crawler Carl RPG - Regole" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Dungeon Crawler Carl RPG - Regole
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../riferimento_rapido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Riferimento rapido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole base
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regole base
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/introduzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/dadi_stat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dadi e Stat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/skill/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skill
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/meccanica_base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meccanica base (Check)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/tempo_azioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tempo e Azioni
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/interazione_sociale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interazione sociale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_basi/esplorazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esplorazione dell'ambiente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combattimento e Salute
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combattimento e Salute
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veicoli
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Veicoli
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/veicoli/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veicoli
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/gare_inseguimenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gare e inseguimenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/pericoli_ambientali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pericoli ambientali e Stealth
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combattimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combattimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/combattimento_generale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Principi generali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/combattimento_round/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Il round di combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/combattimento_attacchi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attacchi, modificatori e danno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/crawler_contro_crawler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crawler contro crawler e PvP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/combattimento_esempio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole dall'esempio di combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Salute
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Salute
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/salute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Salute (Health Menu)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/buff_debuff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Buff, Debuff e Injury
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_combattimento/equipaggiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipaggiamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creazione del personaggio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Creazione del personaggio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/panoramica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panoramica della creazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_01_background/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passo 1: Background
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_02_arma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passo 2: Arma e Skill di combattimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_03_04_stat_evade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passi 3-4: Stat ed Evade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_05_08_salute_mana_movimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passi 5-8: Health, Mana, Hotlist, Move, AI Favor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/passo_09_10_trauma_equipaggiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passi 9-10: Trauma ed equipaggiamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/terza_floor_creazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crawler di Third Floor e oltre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/bottino_iniziale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bottino iniziale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/esperienze_tutorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial Floor Experiences (regole)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/tabelle_esperienza_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esperienze: Interazioni, Twists, Mobs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/tabelle_esperienza_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esperienze: Luoghi, Trappole, Interview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/tabelle_esperienza_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esperienze: Third e Fourth Floor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_creazione/selezione_race_class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selezione di Race e Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Race
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Race
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/selezione_race/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selezione di Race e Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/riepilogo_race/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Riepilogo delle Race
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/earth_based_a_d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Earth-based Races: Amazonian - Doppelgänger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/earth_based_d_i/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Earth-based Races: Dwarf - Igneous
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/earth_based_l_t/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Earth-based Races: Lajabless - Tigran
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_razze/alien_races/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alien Races
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Class
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduzione e riepilogo Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arcanist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Arcanist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Mage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Class Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema Point Build (Race e Class)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema Point Build (Race e Class)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#panoramica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Panoramica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passo-1-concetto-della-race-o-della-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: concetto della Race o della Class
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passo 1: concetto della Race o della Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nuova-race" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuova Race
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nuova-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuova Class
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passo-2-benefici-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Benefici (Benefits)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passo 2: Benefici (Benefits)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regole-generali" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regole generali
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-minori-1-build-point-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici minori (1 Build Point ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-moderati-2-build-points-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici moderati (2 Build Points ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-maggiori-3-build-points-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici maggiori (3 Build Points ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-estremi-4-build-points-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici estremi (4 Build Points ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-epici-6-build-points-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici epici (6 Build Points ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passo-3-opzionale-detriments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 3 (opzionale): Detriments
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passo 3 (opzionale): Detriments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regole-generali_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regole generali
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stat-detriments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stat Detriments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-detriments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Detriments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detriments-minori-1-build-point-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detriments minori (1 Build Point extra)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detriments-moderati-2-build-points-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detriments moderati (2 Build Points extra)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detriments-maggiori-3-build-points-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detriments maggiori (3 Build Points extra)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esempio-di-creazione-di-una-class-dungeon-dad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Esempio di creazione di una Class: Dungeon Dad
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Esempio di creazione di una Class: Dungeon Dad">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#class-risultante-dungeon-dad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Class risultante: Dungeon Dad
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divinità e avanzamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Divinità e avanzamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_divinita_avanzamento/culto_divinita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divinità e culto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_divinita_avanzamento/profili_divinita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Profili delle divinità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_divinita_avanzamento/avanzamento_crawler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Avanzamento del crawler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_divinita_avanzamento/grinding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grinding
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skill
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Skill
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/skill_regole_generali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skill - Regole generali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attack Skill
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Attack Skill
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_skill_indice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole e riepilogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_armi_mischia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armi da mischia e Strike Skill
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_hand_to_hand/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hand-to-Hand
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_distanza_reach/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranged e Reach
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/attack_esplosivi_fumo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esplosivi e fumo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Utility Skill
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_indice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regole e riepilogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_a_c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill A-C
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_d_g/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill D-G
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_h_p/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill H-P
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_skill/utility_skill_r_z/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utility Skill R-Z
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spell
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell - regole generali e riepilogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_a_f/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell A-F
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_g_m/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell G-M
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_n_r/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell N-R
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/spell_s_z/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell S-Z
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Loot
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/loot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_spell_loot/oggetti_casuali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oggetti magici casuali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting, Pet, Mount e Minion
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Crafting, Pet, Mount e Minion
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/crafting_base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting - basi e crafting tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/crafting_incantamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting - incantamento e Skill Check
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/crafting_specialistico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting specialistico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/pets_acquisizione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pets - acquisizione e attitudine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/pets_regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pets - ruolo, statistiche e comandi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/mounts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mounts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_crafting_pet/minions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Il Dungeon
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Il Dungeon
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/interfaccia_crawler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interfaccia del Crawler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/inventario_crawler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory del Crawler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/achievement_loot_box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Achievement e Loot Box
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/popolarita_tutorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Popularity e Tutorial Levels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/club_desperado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Desperado Club
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/club_vanquisher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Club Vanquisher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/interviste_e_dei/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interviste e Gods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/piano_03_over_city/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Third Floor: Over City
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/piano_04_iron_tangle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fourth Floor: Iron Tangle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_dungeon/piano_05_bubbles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fifth Floor: Bubbles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Popolarità, Sponsor e Interviste
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Popolarità, Sponsor e Interviste
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/popolarita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Popolarità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/top_ten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Top Ten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/sponsor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sponsor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/interview_show_regole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Shows - Regole generali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_popolarita_interviste/interview_show_specifiche/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Shows - Show specifiche
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PNG, Divinità e Artefatti
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PNG, Divinità e Artefatti
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/png_dungeon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PNG del dungeon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/divinita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Divinità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/patronato_bardi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patronato dei Bardi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/artefatti_trama_libri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatti di trama e libri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/artefatti_sofferenza_divina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatti della Divine Suffering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13_png_divinita_artefatti/artefatti_divini_cristalli_fazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatti divini, cristalli e Faction Wars
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guida del Game Master
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guida del Game Master
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_game_master/ruolo_sessioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ruolo del GM e struttura del gioco
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_game_master/gruppo_session_zero/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formazione del gruppo e Session Zero
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_game_master/gestione_partita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Condurre il gioco e i combattimenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_game_master/scene_sociali_trappole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scene sociali, enigmi e trappole
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_game_master/montaggi_grinding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Montaggi e Grinding
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_game_master/neighborhood_quest_floor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Neighborhood, Quest e Floor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_game_master/stat_block_scaling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stat Block e scaling degli encounter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_game_master/creare_mob_boss/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creare Mob e Boss
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_game_master/arbitrato_patch_morte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestione di regole, patch e morte dei PC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indice dei tag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#panoramica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Panoramica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passo-1-concetto-della-race-o-della-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: concetto della Race o della Class
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passo 1: concetto della Race o della Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nuova-race" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuova Race
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nuova-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuova Class
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passo-2-benefici-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Benefici (Benefits)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passo 2: Benefici (Benefits)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regole-generali" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regole generali
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-minori-1-build-point-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici minori (1 Build Point ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-moderati-2-build-points-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici moderati (2 Build Points ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-maggiori-3-build-points-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici maggiori (3 Build Points ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-estremi-4-build-points-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici estremi (4 Build Points ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefici-epici-6-build-points-ciascuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefici epici (6 Build Points ciascuno)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passo-3-opzionale-detriments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 3 (opzionale): Detriments
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passo 3 (opzionale): Detriments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regole-generali_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regole generali
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stat-detriments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stat Detriments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-detriments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Detriments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detriments-minori-1-build-point-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detriments minori (1 Build Point extra)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detriments-moderati-2-build-points-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detriments moderati (2 Build Points extra)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detriments-maggiori-3-build-points-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detriments maggiori (3 Build Points extra)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esempio-di-creazione-di-una-class-dungeon-dad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Esempio di creazione di una Class: Dungeon Dad
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Esempio di creazione di una Class: Dungeon Dad">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#class-risultante-dungeon-dad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Class risultante: Dungeon Dad
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigazione" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../introduzione/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Class
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:class" class="md-tag">Class</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:creazione-personaggio" class="md-tag">Creazione personaggio</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:da-verificare" class="md-tag">Da verificare</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:point-build" class="md-tag">Point Build</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:tabelle" class="md-tag">Tabelle</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="sistema-race-class-point-build">Sistema Race &amp; Class Point Build<a class="headerlink" href="#sistema-race-class-point-build" title="Permanent link">&para;</a></h1>
+<h2 id="panoramica">Panoramica<a class="headerlink" href="#panoramica" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Il sistema Build permette di creare una nuova Race o una nuova Class, simulando le opzioni offerte al crawler.</li>
+<li>Il giocatore dispone di <strong>25 Race Build Points</strong> e <strong>30 Class Build Points</strong> da spendere in abilità specifiche.</li>
+<li>Facoltativamente, il giocatore può assumere svantaggi (<strong>detriments</strong>) per ottenere ulteriori Build Points da spendere.</li>
+<li>I Build Points non spesi vanno persi.</li>
+<li>I Race Build Points e i Class Build Points sono pool distinti: i punti di un pool non possono essere spesi nell'altro.</li>
+</ul>
+<p><em>Fonte: manuale, p. 158.</em></p>
+<h2 id="passo-1-concetto-della-race-o-della-class">Passo 1: concetto della Race o della Class<a class="headerlink" href="#passo-1-concetto-della-race-o-della-class" title="Permanent link">&para;</a></h2>
+<h3 id="nuova-race">Nuova Race<a class="headerlink" href="#nuova-race" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Il giocatore stabilisce se la Race è di tipo fantasy, basata su miti o tradizioni della Terra, o di natura insolita.</li>
+<li>La Race è <strong>Earth</strong> (inclusi folklore, mitologia e leggende terrestri) oppure <strong>alien</strong>.</li>
+<li>Le Race alien ottengono modi unici per guadagnare Popularity, ma non hanno accesso alle Earth Classes.</li>
+<li>Le Race Earth ottengono una Silver Earth Box, che contiene una Earth Hobby Potion (garantisce 3 Ranks in una Skill), e accedono alle Earth Classes.</li>
+</ul>
+<h3 id="nuova-class">Nuova Class<a class="headerlink" href="#nuova-class" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Il giocatore sceglie il tema della Class in base alla Race selezionata e alle esperienze nei Tutorial Floors.</li>
+</ul>
+<p><em>Fonte: manuale, p. 158.</em></p>
+<h2 id="passo-2-benefici-benefits">Passo 2: Benefici (Benefits)<a class="headerlink" href="#passo-2-benefici-benefits" title="Permanent link">&para;</a></h2>
+<h3 id="regole-generali">Regole generali<a class="headerlink" href="#regole-generali" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Il giocatore spende Build Points per assegnare benefici meccanici alla Race o alla Class. I benefici sono classificati per utilità e potenza generale e costituiscono esempi. Il giocatore può proporre benefici originali, da discutere con il <abbr title="Game Master.">GM</abbr>.</li>
+<li>Le caratteristiche prive di benefici meccanici sono gratuite (esempi: colore insolito della pelle, odore insolito, voce particolare).</li>
+<li>Alcuni bonus di Skill si applicano a gruppi di Skill tematicamente collegati (thematically linked). Il costo del bonus dipende dalla dimensione del gruppo (4 o 6 punti).</li>
+<li>Skill tematicamente collegate: Skill che usano la stessa Stat, Skill di movimento, tutte le Skill di un particolare tipo di arma, o un'altra definizione sensata. Le Passive Skill, le Spell in generale e le Racial Skill non sono tematicamente collegate.</li>
+<li>Lo stesso beneficio può essere preso più volte, se ha effetto. I bonus di Stat e di Skill si cumulano. Due istanze di Resistance to Slashing damage non producono più di una istanza (le Resistances sono fissate a "metà danno").</li>
+<li>Il menu seguente indica i costi in Build Points per la maggior parte degli esempi delle Race e delle Class del manuale, più molti effetti comuni. Il menu è un esempio di ciò che è possibile con le Race e una guida per bilanciare il valore di un Build Point.</li>
+</ul>
+<h3 id="benefici-minori-1-build-point-ciascuno">Benefici minori (1 Build Point ciascuno)<a class="headerlink" href="#benefici-minori-1-build-point-ciascuno" title="Permanent link">&para;</a></h3>
+<ul>
+<li>+1 a una Stat</li>
+<li>Iscrizione a Club Desperado o Club Vanquisher</li>
+<li>Alla fine di ogni floor, aggiungere 1 ai Skill Advancement Checks per una particolare Skill</li>
+<li>Permettere a una Skill specifica di essere portata a Rank 20</li>
+<li>Aggiungere il proprio <abbr title="Modificatore ricavato dal punteggio di una Stat (Tabella 2).">Stat Mod</abbr> una seconda volta usando una specifica Skill non di combattimento in una circostanza comune</li>
+<li>Un beneficio con una condizione, ad esempio ottenere <abbr title="Si tira un d20 extra e si tiene il risultato più alto. Più fonti non si cumulano.">Advantage</abbr> quando si attaccano creature di pietra</li>
+<li>Vedere nell'oscurità totale, oppure capacità naturale di produrre luce</li>
+<li>Mana regeneration doppia da mending e resting in un ambiente specifico</li>
+<li>Vedere a una distanza doppia rispetto alla maggior parte delle creature</li>
+<li>Un tier-1 crafting table (compare non appena si ottiene uno spazio personale)</li>
+<li>Una stanza gratuita nelle safe room</li>
+<li>Sconto nei negozi, bonus sul denaro guadagnato dalle vendite o interesse guadagnato (+1 per ciascuna categoria)</li>
+<li>Ottenere un beneficio non di combattimento una volta per session in condizioni molto specifiche</li>
+</ul>
+<h3 id="benefici-moderati-2-build-points-ciascuno">Benefici moderati (2 Build Points ciascuno)<a class="headerlink" href="#benefici-moderati-2-build-points-ciascuno" title="Permanent link">&para;</a></h3>
+<ul>
+<li>+1 in una Skill o Spell, comprese quelle Passive (una Class build non può avere più di 5 punti di Passive Skills)</li>
+<li>Capacità di curare 1 Health Bar slot quando si danneggia o si uccide una creatura con una specifica Weapon Skill o Spell, fino a 5 Health Bar per combat scene</li>
+<li>Aggiungere il proprio <abbr title="Modificatore ricavato dal punteggio di una Stat (Tabella 2).">Stat Mod</abbr> una seconda volta quando si effettua un attacco in una circostanza comune</li>
+<li>Tirare con <abbr title="Si tira un d20 extra e si tiene il risultato più alto. Più fonti non si cumulano.">Advantage</abbr> nei Skill Advancement Checks per una particolare Skill</li>
+<li>Alla fine di ogni floor, aggiungere 1 ai Skill Advancement Checks per un particolare gruppo di Skill tematicamente collegate</li>
+<li>All'inizio del combat, poter cambiare il proprio tipo di danno in un tipo diverso per quel combat</li>
+<li>+1 <abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr> Buff (fino a un limite di +3)</li>
+<li>Poter accedere a qualsiasi guild di un particolare tipo (ad esempio, qualsiasi Weapon Training Guild)</li>
+<li>Mana regeneration doppia da mending e resting senza limite</li>
+<li>Iscrizione a tutti i club professionali e sociali</li>
+<li>Iscrizione al Dungeon Book of the Floor Club</li>
+<li>Poter portare a Rank 20 un gruppo di Skill tematicamente collegate</li>
+<li>I <abbr title="Creatura ostile controllata dal GM. Il GM non tira i dadi per i Mob.">Mob</abbr> lasciano 1 × Floor Number gold quando uccisi con un attacco specifico</li>
+<li>Capacità di ottenere Popularity con azioni e attacchi specifici</li>
+<li>Patron Benefit</li>
+<li>Resistance a un tipo di danno non comune (Force, Psychic, Necrotic, ecc.)</li>
+<li>Resistance ai danni causati dall'ambiente (Falling, Drowning, trappole del dungeon, ecc.)</li>
+<li>Sostituire una Stat usata in un'abilità con un'altra Stat (normalmente una che riceve un bonus di Stat), ad esempio applicare Charisma a <a class="dcc-auto" href="../../08_skill/utility_skill_h_p/#intimidate">Intimidate</a> al posto di Strength</li>
+<li>Poter usare lo <abbr title="Modificatore ricavato dal punteggio di una Stat (Tabella 2).">Stat Mod</abbr> di un'altra abilità in aggiunta al <abbr title="Modificatore di Stat, ricavato dal punteggio (Tabella 2).">Mod</abbr> normale per Skill specifiche</li>
+<li>Poter usare Skill progettate per un tipo di arma su un altro tipo di arma</li>
+<li>Quando si usa una Spell di tipo Healing, il bersaglio cura 1 Health Bar aggiuntivo</li>
+<li>Capacità di attraversare certi tipi di terreno senza <abbr title="d20 + Stat Mod + Rank della Skill, da confrontare con la Difficulty.">Skill Check</abbr></li>
+<li>Capacità di scavare (burrow)</li>
+<li>Capacità di respirare sott'acqua</li>
+<li>+1 in tutte le Skill per una durata temporanea di un'ora o meno</li>
+<li>Un attacco naturale a [Rank = Floor Number] che infligge 1d6 + <abbr title="Modificatore ricavato dal punteggio di una Stat (Tabella 2).">Stat Mod</abbr> di danno. Si sceglie lo <abbr title="Modificatore ricavato dal punteggio di una Stat (Tabella 2).">Stat Mod</abbr> per colpire e per il danno (e il tipo di danno). Si aggiunge un altro d6 ai Rank 5, 10 e 15. Il Rank aumenta solo con il Floor</li>
+<li>Capacità di riassegnare i benefici di Stat di una Race o Class una volta per floor durante un <abbr title="Riposo di 8 ore. HB e Mana tornano al massimo e si rimuove Fatigued.">Long Rest</abbr></li>
+</ul>
+<h3 id="benefici-maggiori-3-build-points-ciascuno">Benefici maggiori (3 Build Points ciascuno)<a class="headerlink" href="#benefici-maggiori-3-build-points-ciascuno" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Accesso a un'assistenza significativa, analoga al Manager Benefit</li>
+<li>Ottenere un Pet amichevole o un Mount</li>
+<li>Capacità di fornire a tutti i propri Pet o Mount un Buff o beneficio significativo fino a 4 Points</li>
+<li>Capacità di alterare drasticamente un incontro una volta al giorno, ad esempio facendo attaccare i nemici tra loro</li>
+<li>Un'abilità difensiva usabile una volta al giorno, ad esempio negare tutto il danno subito da un singolo attacco</li>
+<li>Capacità di conferire un Buff all'intero party una volta al giorno, ad esempio rigenerazione o <abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr> extra</li>
+<li>Capacità di volare, con alcune limitazioni</li>
+<li>Capacità di sopravvivere senza respirare, che conferisce anche Immunity alle tossine inalate</li>
+<li>Rage (Benefit): gli attacchi in mischia infliggono +1 danno per ogni Health Bar slot perso</li>
+<li>Size 2 (Small) o inferiore</li>
+<li>+5ft Move (aumenta il valore di Move del crawler)</li>
+<li>+5 Step (aumenta il valore di Step del crawler)</li>
+<li>Aggiungere 1d4 ai propri Evade o <abbr title="Check basato solo sul valore della Stat, senza Skill. Difficulty: 10 + Floor Number.">Stat Check</abbr> per una Stat specifica</li>
+<li>Un attacco naturale a [Rank = Floor Number] che infligge 1d8 + <abbr title="Modificatore ricavato dal punteggio di una Stat (Tabella 2).">Stat Mod</abbr> di danno. Si sceglie lo <abbr title="Modificatore ricavato dal punteggio di una Stat (Tabella 2).">Stat Mod</abbr> per colpire e per il danno (e il tipo di danno). Si aggiunge un altro d8 ai Rank 5, 10 e 15. Il Rank aumenta solo con il Floor</li>
+<li><abbr title="Si tira un d20 extra e si tiene il risultato più alto. Più fonti non si cumulano.">Advantage</abbr> quando si usa una specifica Skill o Spell non di combattimento</li>
+<li>Bonus situazionale fino a ×2 danno per un round</li>
+<li>Scambiare <abbr title="Constitution. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">CON</abbr> con un'altra Stat per determinare i valori di Health Bar</li>
+<li>Ottenere un Climb Movement, che permette di arrampicarsi automaticamente sulla maggior parte delle superfici, soffitti compresi</li>
+</ul>
+<h3 id="benefici-estremi-4-build-points-ciascuno">Benefici estremi (4 Build Points ciascuno)<a class="headerlink" href="#benefici-estremi-4-build-points-ciascuno" title="Permanent link">&para;</a></h3>
+<ul>
+<li>+1 in una Skill che normalmente non si potrebbe imparare, come <a class="dcc-auto" href="../../08_skill/utility_skill_a_c/#cockroach">Cockroach</a> e <a class="dcc-auto" href="../../08_skill/utility_skill_h_p/#light-on-your-feet">Light on Your Feet</a></li>
+<li>+1 a tutte le Skill di un gruppo tematicamente collegato di 3–5 Skill (Hand-to-Hand Skills, Constitution-based Skills, ecc.)</li>
+<li><abbr title="Si tira un d20 extra e si tiene il risultato più alto. Più fonti non si cumulano.">Advantage</abbr> su tutti gli <abbr title="Check basato solo sul valore della Stat, senza Skill. Difficulty: 10 + Floor Number.">Stat Check</abbr> per una Stat specifica</li>
+<li>Tutte le Skill di un gruppo tematicamente collegato fino a 6 Skill possono essere portate a Rank 20</li>
+<li>Immunity to Poison</li>
+<li>Resistance a un tipo di danno comune (Bludgeoning, Fire)</li>
+<li>Durata doppia per le Spell di Rank 5 e inferiore che hanno una durata</li>
+<li><abbr title="Si tira un d20 extra e si tiene il risultato più alto. Più fonti non si cumulano.">Advantage</abbr> su tutte le Skill in una situazione non di combattimento limitata</li>
+<li>Braccio funzionale aggiuntivo</li>
+<li><a class="dcc-auto" href="../../05_razze/earth_based_a_d/#doppelganger">Doppelgänger</a> shape-changing</li>
+</ul>
+<h3 id="benefici-epici-6-build-points-ciascuno">Benefici epici (6 Build Points ciascuno)<a class="headerlink" href="#benefici-epici-6-build-points-ciascuno" title="Permanent link">&para;</a></h3>
+<ul>
+<li>+1 a tutte le Skill di un gruppo tematicamente collegato di Skill (Ranged Weapons, Intelligence-based Skills, ecc.)</li>
+<li>Tutte le Skill possono essere portate a Rank 20</li>
+<li>Un'abilità difensiva significativa, come Immunity a un tipo di danno comune (ad esempio Bludgeoning, Fire o Piercing) oppure dimezzare il danno dei primi nove attacchi subiti ogni giorno</li>
+<li>Il Limb <a class="dcc-auto" href="../../08_skill/utility_skill_r_z/#regeneration">Regeneration</a> Benefit</li>
+<li>Tirare con <abbr title="Si tira un d20 extra e si tiene il risultato più alto. Più fonti non si cumulano.">Advantage</abbr> su tutte le Skill in un'ampia gamma di circostanze</li>
+<li>Immunity to Poison e a tutte le malattie</li>
+<li>+1 a tutte le Skill di un gruppo tematicamente collegato di 6+ Skill (Ranged Weapons, Intelligence-based Skills, ecc.)</li>
+<li>Un'abilità difensiva significativa, come <abbr title="Si tira un d20 extra e si tiene il risultato più alto. Più fonti non si cumulano.">Advantage</abbr> sugli Evade Check, o Immunity a un tipo di danno comune (Fire, Bludgeoning, ecc.)</li>
+<li>Un'abilità potente e flessibile che può cambiare significativamente Stat o Skill, come la capacità di un <a class="dcc-auto" href="../../05_razze/earth_based_a_d/#changeling">Changeling</a> di assumere i bonus di Stat o di Skill di un'altra Race</li>
+<li>Changeling shapeshifting</li>
+<li>Tirare con <abbr title="Si tira un d20 extra e si tiene il risultato più alto. Più fonti non si cumulano.">Advantage</abbr> su tutti gli <abbr title="d20 + Stat Mod + Rank della Skill, da confrontare con la Difficulty.">Skill Check</abbr> per una Stat specifica</li>
+<li>Capacità di volare senza limitazioni</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Da verificare</p>
+<p>Nell'elenco dei benefici epici alcune voci si sovrappongono: due voci "+1 a tutte le Skill di un gruppo tematicamente collegato" (la seconda riferita a gruppi di 6+ Skill) e due voci "abilità difensiva significativa" con esempi diversi (p. 160). Le voci sono riportate come stampate. Inoltre il beneficio maggiore "Add 1d4 to your Evade or Stat Checks for a specific Stat" è citato nell'esempio <em>Dungeon Dad</em> come beneficio il cui costo, per una variante che richiede un'Action, viene ridotto a 2 Build Points (p. 160).</p>
+</div>
+<p><em>Fonte: manuale, p. 158–160.</em></p>
+<h2 id="passo-3-opzionale-detriments">Passo 3 (opzionale): Detriments<a class="headerlink" href="#passo-3-opzionale-detriments" title="Permanent link">&para;</a></h2>
+<h3 id="regole-generali_1">Regole generali<a class="headerlink" href="#regole-generali_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Il giocatore può assumere svantaggi meccanici alla Class (detriments) per ottenere più Build Points da spendere in benefici. Non è obbligatorio assumere svantaggi.</li>
+<li>Non si possono ottenere più di 5 Build Points extra tramite detriments per la Race o la Class, per un totale di 10 prendendo il massimo di 5 detriments sia per la Race sia per la Class.</li>
+</ul>
+<h3 id="stat-detriments">Stat Detriments<a class="headerlink" href="#stat-detriments" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Si ottengono Build Points assegnando penalità alle Stat.</li>
+<li>Si ottiene 1 Build Point extra ogni 2 punti di penalità a una o più Stat.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Esempio</p>
+<p>Una Class con −1 a Intelligence e −3 a Dexterity ottiene 2 Build Points extra.</p>
+</div>
+<h3 id="skill-detriments">Skill Detriments<a class="headerlink" href="#skill-detriments" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Si ottengono Build Points assegnando penalità alle Skill attuali.</li>
+<li>Non si possono creare penalità per Skill che il crawler non possiede.</li>
+<li>Una penalità non può essere maggiore del Rank attuale nella Skill.</li>
+<li>Si ottiene 1 Build Point extra ogni 2 punti di penalità a una o più Skill.</li>
+<li>Si può anche assumere una penalità a tutte le Skill sotto una singola Stat (ad esempio "tutte le Charisma Skills"), ottenendo 1 Build Point extra per ogni penalità di −1.</li>
+</ul>
+<h3 id="detriments-minori-1-build-point-extra">Detriments minori (1 Build Point extra)<a class="headerlink" href="#detriments-minori-1-build-point-extra" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Non può scegliere la Class a causa dell'iscrizione a uno specifico club</li>
+<li>Per ogni −2 di Stat detriments</li>
+<li>Per ogni −2 di Skill detriments</li>
+<li>Per ogni −1 a tutte le Skill sotto una Stat specifica</li>
+<li>+1 Mana di costo per lanciare Spell non favorite dalla Class</li>
+<li><abbr title="Si tira un d20 extra e si tiene il risultato più basso. Più fonti non si cumulano.">Disadvantage</abbr> nell'uso di un gruppo di Skill tematicamente collegate, quando esiste una condizione (ad esempio <abbr title="Si tira un d20 extra e si tiene il risultato più basso. Più fonti non si cumulano.">Disadvantage</abbr> in tutte le Skill sociali usate contro una certa categoria di creature)</li>
+<li>Deve venerare una divinità</li>
+<li>Non può venerare una divinità</li>
+<li>Subisce una penalità di −1 nei Skill Advancement Checks per una Skill specifica fornita dalla Race o dalla Class a Rank 5+</li>
+<li>Vulnerability: un tipo di danno non comune (come Force o Necrotic) infligge danno doppio</li>
+<li>Dimezza gli effetti di un ampio tipo di danno, come tutto il danno da Weapon o da Spell, che non è il focus della Class (ad esempio dimezzare il danno da Spell per un Barbarian)</li>
+<li>Una debolezza con due condizioni, come <abbr title="Si tira un d20 extra e si tiene il risultato più basso. Più fonti non si cumulano.">Disadvantage</abbr> nelle situazioni sociali con i Fairies</li>
+<li>Ritardare un bonus a dopo il Level 50 o all'attivazione al 6th Floor</li>
+</ul>
+<h3 id="detriments-moderati-2-build-points-extra">Detriments moderati (2 Build Points extra)<a class="headerlink" href="#detriments-moderati-2-build-points-extra" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Una debolezza con una singola condizione ampia, come <abbr title="Si tira un d20 extra e si tiene il risultato più basso. Più fonti non si cumulano.">Disadvantage</abbr> in tutte le situazioni sociali</li>
+<li>La Skill aumenta di Rank solo alla discesa al floor successivo</li>
+<li>Scelta limitata delle armi disponibili</li>
+<li>Nessuno <abbr title="Modificatore ricavato dal punteggio di una Stat (Tabella 2).">Stat Mod</abbr> aggiunto a una Weapon Skill fornita dalla Race o dalla Class</li>
+<li>+3 Mana di costo per una classe di Spell fornita dalla Race o dalla Class</li>
+<li><abbr title="Si tira un d20 extra e si tiene il risultato più basso. Più fonti non si cumulano.">Disadvantage</abbr> nell'uso di un gruppo di Skill tematicamente collegate, come tutte le Skill di movimento</li>
+<li>Divieto di usare un'ampia categoria di oggetti utili, come l'impossibilità di usare certi tipi di Weapon o di lanciare Passive Spells</li>
+</ul>
+<h3 id="detriments-maggiori-3-build-points-extra">Detriments maggiori (3 Build Points extra)<a class="headerlink" href="#detriments-maggiori-3-build-points-extra" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Una Stat specifica è limitata a 10. Neppure l'equipaggiamento magico e le pozioni possono superare questo limite</li>
+<li>Vulnerability: un tipo di danno comune (come Bludgeoning o Piercing) infligge danno doppio</li>
+</ul>
+<p><em>Fonte: manuale, p. 161.</em></p>
+<h2 id="esempio-di-creazione-di-una-class-dungeon-dad">Esempio di creazione di una Class: Dungeon Dad<a class="headerlink" href="#esempio-di-creazione-di-una-class-dungeon-dad" title="Permanent link">&para;</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Esempio</p>
+<p>Bob e gli altri giocatori hanno raggiunto il Third Floor. Bob vuole creare la Class "Dungeon Dad". Dopo aver discusso con il <abbr title="Game Master.">GM</abbr>, concordano che sia una Earth Class con Earth Hobby Potion. Bob sceglie dal menu i benefici seguenti.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Concetto</th>
+<th>Scelta</th>
+<th>Costo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grill Dad</td>
+<td>Buff per l'intero party, 3–4 volte al giorno, basato sul bonus di <a class="dcc-auto" href="../../05_razze/earth_based_a_d/#crocodilian">Crocodilian</a> dopo aver mangiato; classificato come Extreme Benefit</td>
+<td>4 Build Points</td>
+</tr>
+<tr>
+<td>Protective Dad</td>
+<td>3 Ranks in Catcher</td>
+<td>6 Build Points</td>
+</tr>
+<tr>
+<td>Protective Dad</td>
+<td>2 Ranks in una Weapon Skill a scelta (necessaria un'arma)</td>
+<td>4 Build Points</td>
+</tr>
+<tr>
+<td>Helpful Advice Dad</td>
+<td>2 Ranks in <a class="dcc-auto" href="../../08_skill/utility_skill_r_z/#tactics">Tactics</a></td>
+<td>4 Build Points</td>
+</tr>
+<tr>
+<td>Helpful Advice Dad</td>
+<td>Bonus 1d4 ad altri quando si usano le Action Help o Intervene. Derivato dal beneficio maggiore "Add 1d4 to your Evade or Stat Checks": poiché richiede un'Action ed è più limitato del bonus sempre attivo, vale 2 Build Points</td>
+<td>2 Build Points</td>
+</tr>
+<tr>
+<td>Awful Jokes Dad</td>
+<td>Punti nel bonus alla Stat Charisma (non nella Skill <a class="dcc-auto" href="../../08_skill/utility_skill_d_g/#good-first-impression">Good First Impression</a>)</td>
+<td>(vedi sotto)</td>
+</tr>
+<tr>
+<td>Fix-It Dad</td>
+<td>2 Ranks in <a class="dcc-auto" href="../../08_skill/utility_skill_r_z/#repair">Repair</a></td>
+<td>4 Build Points</td>
+</tr>
+<tr>
+<td>DILF</td>
+<td>2 Ranks nella Spell <a class="dcc-auto" href="../../09_spell_loot/spell_g_m/#hot-stuff-aura">Hot Stuff Aura</a> (raggiunge il limite di 5 Ranks di Passive Skills della Class build)</td>
+<td>4 Build Points</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Il testo dell'esempio indica che Bob ha speso 24 dei 30 Class Build Points con le scelte precedenti.</li>
+<li>Bob spende 2 Build Points in +1 <abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr>.</li>
+<li>Bob spende gli ultimi 4 Build Points in Stat: +2 Charisma, +1 Strength, +1 Constitution.</li>
+<li>Con 30 Build Points spesi, Bob assume detriments: −2 <abbr title="Dexterity. Con l'abbreviazione si intende il modificatore, con il nome completo il punteggio.">DEX</abbr> e Vulnerability: Necrotic damage. Questi gli fruttano 2 Build Points extra, che spende in un ulteriore punto di <abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr>.</li>
+<li>Bob e il <abbr title="Game Master.">GM</abbr> stabiliscono che i Class Type sono Fighter (per Catcher e Weapon Skill) e Bard (per i buff di consiglio e cibo).</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Da verificare</p>
+<p>La somma dei costi elencati nell'esempio (4 + 6 + 4 + 4 + 2 + 4 + 4 = 28) non coincide con i "24 dei 30 Class Build Points" dichiarati dal testo (p. 162). Il manuale non spiega la differenza.</p>
+</div>
+<h3 id="class-risultante-dungeon-dad">Class risultante: Dungeon Dad<a class="headerlink" href="#class-risultante-dungeon-dad" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Class Type</strong>: Bard, Fighter</li>
+<li><strong>Modificatori di Stat</strong>: +2 Charisma, +1 Strength, +1 Constitution, −2 Dexterity</li>
+<li><strong>Skill</strong>:<ul>
+<li>+3 Catcher</li>
+<li>+2 Repair e Tactics</li>
+<li>+2 in una Weapon Skill a scelta</li>
+</ul>
+</li>
+<li><strong>Spell</strong>: +2 Hot Stuff Aura</li>
+<li><strong>Capacità speciali</strong>:<ul>
+<li>+2 <abbr title="Damage Resistance. Riduce il danno ricevuto prima che venga applicato alla Health Bar.">DR</abbr></li>
+<li>Quando il crawler e fino a 6 alleati consumano un pasto da lui cucinato (almeno 30 minuti di preparazione), ogni commensale ottiene +1 Buff a tutti i propri <abbr title="d20 + Stat Mod + Rank della Skill, da confrontare con la Difficulty.">Skill Check</abbr> per 1 ora</li>
+<li>Tira un 1d4 bonus quando effettua le Action Help o Intervene e lo aggiunge al beneficio fornito al bersaglio</li>
+<li>Vulnerability: Necrotic damage</li>
+<li>Silver Earth Box, con Earth Hobby Potion garantita (nel testo: "Earth Hobby Skill Potion")</li>
+</ul>
+</li>
+<li><strong>Earth Class</strong>: sì</li>
+</ul>
+<p><em>Fonte: manuale, p. 161–162.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+          
+          <a href="../rogue/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Class Rogue">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              <div class="md-ellipsis">
+                Class Rogue
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../07_divinita_avanzamento/culto_divinita/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Divinità e culto">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Divinità e culto
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.path", "navigation.sections", "navigation.top", "navigation.footer", "content.code.copy", "toc.follow", "search.share", "header.autohide"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/enhance.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,85 @@
+/* Riquadri "Da verificare" */
+.md-typeset .admonition.verifica,
+.md-typeset details.verifica {
+  border-color: #b8860b;
+  border-style: dashed;
+}
+.md-typeset .verifica > .admonition-title,
+.md-typeset .verifica > summary {
+  background-color: rgba(184, 134, 11, 0.12);
+}
+.md-typeset .verifica > .admonition-title::before,
+.md-typeset .verifica > summary::before {
+  background-color: #b8860b;
+  -webkit-mask-image: var(--md-admonition-icon--question);
+  mask-image: var(--md-admonition-icon--question);
+}
+body.nascondi-verifiche .md-typeset .verifica { display: none; }
+
+/* Pulsante per mostrare/nascondere i riquadri "Da verificare" */
+.dcc-toggle {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 5;
+  padding: .45rem .8rem;
+  font: inherit;
+  font-size: .7rem;
+  color: var(--md-primary-bg-color);
+  background: var(--md-primary-fg-color);
+  border: 0;
+  border-radius: 2rem;
+  box-shadow: var(--md-shadow-z2);
+  cursor: pointer;
+  opacity: .85;
+}
+.dcc-toggle:hover { opacity: 1; }
+@media print { .dcc-toggle { display: none; } }
+
+/* Tabelle: righe alternate, ordinamento e filtro */
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: var(--md-default-fg-color--lightest);
+}
+.md-typeset table:not([class]) th.dcc-sortable {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+.md-typeset table:not([class]) th.dcc-sortable::after {
+  content: " \21C5";
+  opacity: .35;
+  font-size: .85em;
+}
+.md-typeset table:not([class]) th.dcc-sortable[aria-sort="ascending"]::after { content: " \25B2"; opacity: .9; }
+.md-typeset table:not([class]) th.dcc-sortable[aria-sort="descending"]::after { content: " \25BC"; opacity: .9; }
+.dcc-filter {
+  display: block;
+  width: 100%;
+  max-width: 22rem;
+  margin: .6rem 0 .2rem;
+  padding: .35rem .6rem;
+  font: inherit;
+  font-size: .8rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: .05rem solid var(--md-default-fg-color--lighter);
+  border-radius: .2rem;
+}
+.dcc-filter:focus { outline: .1rem solid var(--md-accent-fg-color); }
+
+/* Tabelle larghe: prima colonna fissa e testo più compatto */
+.md-typeset table:not([class]).dcc-wide { font-size: .68rem; }
+.md-typeset table:not([class]).dcc-wide th:first-child,
+.md-typeset table:not([class]).dcc-wide td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: var(--md-default-bg-color);
+  box-shadow: .05rem 0 0 var(--md-default-fg-color--lightest);
+}
+
+/* Link automatici: sottolineatura tratteggiata, meno invasiva nel testo */
+.md-typeset a.dcc-auto { text-decoration: underline dotted; text-underline-offset: .15em; }
+
+/* Abbreviazioni */
+.md-typeset abbr[title] { text-decoration-style: dotted; }
