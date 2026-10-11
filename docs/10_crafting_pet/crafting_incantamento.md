@@ -1,3 +1,10 @@
+---
+tags:
+  - Crafting
+  - Da verificare
+  - Tabelle
+---
+
 # Crafting: incantamento e Skill Check
 
 ## Incantare oggetti (Enchanting Items)

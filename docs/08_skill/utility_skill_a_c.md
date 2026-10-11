@@ -1,3 +1,10 @@
+---
+tags:
+  - Skill
+  - Utility Skill
+  - Da verificare
+---
+
 # Utility Skill A–C
 
 ## Skill da Acute Ears a Bomb Surgeon

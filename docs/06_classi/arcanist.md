@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Arcanist
+  - Da verificare
+---
+
 # Class Arcanist
 
 ## Regole generali del gruppo

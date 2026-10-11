@@ -1,3 +1,9 @@
+---
+tags:
+  - Combattimento
+  - Tabelle
+---
+
 # Attacchi, modificatori e danno (Attacks, Modifiers, Damage)
 
 ## Tipi di Attack

@@ -1,3 +1,8 @@
+---
+tags:
+  - Dungeon
+---
+
 # Inventory del Crawler (Crawler Inventory)
 
 ## Inventory

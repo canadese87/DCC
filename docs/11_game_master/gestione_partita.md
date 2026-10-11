@@ -1,3 +1,9 @@
+---
+tags:
+  - Game Master
+  - Encounter
+---
+
 # Condurre il gioco e i combattimenti (Running the Game)
 
 ## Encounter

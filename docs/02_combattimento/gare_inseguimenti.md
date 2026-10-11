@@ -1,3 +1,11 @@
+---
+tags:
+  - Combattimento
+  - Veicoli
+  - Da verificare
+  - Tabelle
+---
+
 # Gare e inseguimenti (Racing & Chasing)
 
 Le gare e gli inseguimenti risolvono un conflitto tramite la velocità invece che con il combattimento.

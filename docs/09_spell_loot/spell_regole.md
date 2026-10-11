@@ -1,3 +1,10 @@
+---
+tags:
+  - Spell
+  - Da verificare
+  - Tabelle
+---
+
 # Spell: regole generali e riepilogo
 
 ## Regole generali delle Spell

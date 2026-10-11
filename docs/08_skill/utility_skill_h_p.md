@@ -1,3 +1,10 @@
+---
+tags:
+  - Skill
+  - Utility Skill
+  - Da verificare
+---
+
 # Utility Skill H–P
 
 ## Skill da Hide in Shadows a Investigation

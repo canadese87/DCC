@@ -1,3 +1,9 @@
+---
+tags:
+  - Regole base
+  - Tabelle
+---
+
 # Skill (Skills)
 
 ## Definizione

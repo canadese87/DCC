@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Mage
+  - Da verificare
+---
+
 # Class Mage
 
 ## Regole generali del gruppo

@@ -1,3 +1,9 @@
+---
+tags:
+  - Race
+  - Regole opzionali
+---
+
 # Selezione di Race e Class (Race & Class Selection)
 
 ## Procedura di selezione

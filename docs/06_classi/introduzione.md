@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Da verificare
+  - Tabelle
+---
+
 # Classi (Classes): regole generali e riepilogo
 
 ## Selezione della Class

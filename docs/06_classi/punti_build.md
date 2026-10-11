@@ -1,3 +1,12 @@
+---
+tags:
+  - Class
+  - Creazione personaggio
+  - Point Build
+  - Da verificare
+  - Tabelle
+---
+
 # Sistema Race & Class Point Build
 
 ## Panoramica

@@ -1,3 +1,10 @@
+---
+tags:
+  - Loot
+  - Da verificare
+  - Tabelle
+---
+
 # Loot
 
 Il ==Loot== comprende gli oggetti ottenuti da loot box e dai Mob e Boss sconfitti. Le loot box sono suddivise in sei livelli di rarità (Tier): Bronze, Silver, Gold, Platinum, Legendary, Celestial. La loro tabella di contenuti d'esempio e le regole per gli oggetti magici casuali sono nelle sezioni *Contenuto delle loot box* e *Oggetti magici casuali*.

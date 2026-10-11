@@ -1,3 +1,10 @@
+---
+tags:
+  - Combattimento
+  - Esplorazione
+  - Da verificare
+---
+
 # Pericoli ambientali e Stealth (Hunger, Hiding, Harsh Conditions)
 
 ## Fame (Hunger)

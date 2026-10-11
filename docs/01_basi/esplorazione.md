@@ -1,3 +1,11 @@
+---
+tags:
+  - Regole base
+  - Esplorazione
+  - Da verificare
+  - Tabelle
+---
+
 # Esplorazione dell'ambiente (Exploring the Environment)
 
 I crawler trascorrono la maggior parte del tempo nel dungeon esplorando l'ambiente alla ricerca di loot, Bosses, saferooms, stairwell e altre opportunità.

@@ -1,3 +1,9 @@
+---
+tags:
+  - Regole base
+  - Tabelle
+---
+
 # Introduzione al gioco (Introduction)
 
 ## Struttura del gioco

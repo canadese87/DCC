@@ -1,3 +1,10 @@
+---
+tags:
+  - Combattimento
+  - Equipaggiamento
+  - Tabelle
+---
+
 # Equipaggiamento (Equipment)
 
 ## Inventory

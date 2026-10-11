@@ -1,3 +1,10 @@
+---
+tags:
+  - Divinità
+  - Da verificare
+  - Tabelle
+---
+
 # Divinità (Deities)
 
 Le interazioni con le divinità rientrano in tre categorie: ==Boon==, ==Penitence== e ==Shunning==, ==Smite==. Questa sezione del manuale non contiene schede per singola divinità: l'unico dato per divinità specifica è la Signature Smite (Tabella 67). Quando le tabelle citano "signature Skill", "signature Buff/Debuff" o "Favored Stat" della divinità, tali dati sono quelli della divinità interessata.

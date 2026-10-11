@@ -1,3 +1,11 @@
+---
+tags:
+  - Artefatti
+  - Da verificare
+  - Tabelle
+  - Regole opzionali
+---
+
 # Artefatti di trama: Silver Earth Box e libri (Plot Artifacts)
 
 I Plot Artifacts sono oggetti posizionati da showrunner e System AI per coinvolgere i crawler in conflitti (Desperado Club, Club Vanquisher, Faction Wars alla Ninth Floor, Celestial Ascendancy alla Twelfth Floor). Questo file contiene le Silver Earth Box, le Earth Hobby Potion e i tre libri a tema (Dungeon Anarchist's Cookbook, Bestiarium Labyrinthi, Book of Abramelin). Gli altri artefatti sono nei file successivi.

@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Monk
+  - Da verificare
+---
+
 # Class Monk
 
 ## Regole generali del gruppo

@@ -1,3 +1,12 @@
+---
+tags:
+  - Game Master
+  - Mob e Boss
+  - Encounter
+  - Da verificare
+  - Tabelle
+---
+
 # Stat Block e scaling degli encounter
 
 ## Stat Block di Mob e Boss

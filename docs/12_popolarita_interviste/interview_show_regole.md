@@ -1,3 +1,11 @@
+---
+tags:
+  - Popolarità
+  - Interview Show
+  - Da verificare
+  - Tabelle
+---
+
 # Interview Shows: regole generali
 
 ## Panoramica

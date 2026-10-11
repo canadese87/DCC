@@ -1,3 +1,11 @@
+---
+tags:
+  - Dungeon
+  - Floor 5
+  - Da verificare
+  - Tabelle
+---
+
 # Fifth Floor: Bubbles
 
 !!! warning "Da verificare"

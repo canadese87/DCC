@@ -1,3 +1,10 @@
+---
+tags:
+  - Popolarità
+  - Da verificare
+  - Tabelle
+---
+
 # Popolarità (Popularity)
 
 ## Panoramica

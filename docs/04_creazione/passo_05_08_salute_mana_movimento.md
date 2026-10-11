@@ -1,3 +1,9 @@
+---
+tags:
+  - Creazione personaggio
+  - Tabelle
+---
+
 # Passi 5–8: Health, Mana, Hotlist, Move, AI Favor, Size
 
 ## Passo 5: Health Bar

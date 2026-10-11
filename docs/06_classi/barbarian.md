@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Barbarian
+  - Da verificare
+---
+
 # Class Barbarian
 
 ## Regole generali del gruppo

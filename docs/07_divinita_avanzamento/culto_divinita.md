@@ -1,3 +1,11 @@
+---
+tags:
+  - Avanzamento
+  - Divinità
+  - Da verificare
+  - Tabelle
+---
+
 # Divinità e culto (Deities & Worship)
 
 Le regole di questa pagina valgono per tutte le divinità. I dati specifici delle singole divinità sono nella pagina *Profili delle divinità*. Gli effetti negativi (e occasionalmente positivi) che una divinità può avere sul crawler sono descritti nel Capitolo 6 del manuale e sono riservati al GM.

@@ -1,3 +1,10 @@
+---
+tags:
+  - Popolarità
+  - Top Ten
+  - Tabelle
+---
+
 # The Top Ten
 
 ## Panoramica

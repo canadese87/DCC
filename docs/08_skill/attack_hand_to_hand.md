@@ -1,3 +1,11 @@
+---
+tags:
+  - Skill
+  - Attack Skill
+  - Da verificare
+  - Tabelle
+---
+
 # Attack Skill: Hand-to-Hand
 
 ## Regole generali Hand-to-Hand

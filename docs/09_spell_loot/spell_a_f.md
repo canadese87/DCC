@@ -1,3 +1,9 @@
+---
+tags:
+  - Spell
+  - Da verificare
+---
+
 # Spell: da Air Buddy a Frost Scar
 
 Elenco in ordine alfabetico, come nel manuale. Per i campi delle voci vedi la sezione *Spell: regole generali e riepilogo*.

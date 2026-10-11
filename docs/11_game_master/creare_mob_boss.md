@@ -1,3 +1,11 @@
+---
+tags:
+  - Game Master
+  - Mob e Boss
+  - Da verificare
+  - Tabelle
+---
+
 # Creare Mob e Boss (Create Your Own Mobs and Bosses)
 
 Mob e Boss sono definiti principalmente da Stat e Attack: non hanno Skill né Traumas. Un Mob o Boss si documenta in uno Stat Block (vedi la sezione *Stat Block e scaling degli encounter*).

@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Cleric
+  - Da verificare
+---
+
 # Class Cleric
 
 ## Regole generali del gruppo

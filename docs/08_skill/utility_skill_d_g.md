@@ -1,3 +1,9 @@
+---
+tags:
+  - Skill
+  - Utility Skill
+---
+
 # Utility Skill D–G
 
 ## Skill da Deception a Dumpster Diving

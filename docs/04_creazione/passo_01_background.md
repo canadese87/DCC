@@ -1,3 +1,10 @@
+---
+tags:
+  - Creazione personaggio
+  - Da verificare
+  - Tabelle
+---
+
 # Passo 1: background (Skill iniziali)
 
 ## Principi generali

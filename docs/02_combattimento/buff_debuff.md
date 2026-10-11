@@ -1,3 +1,12 @@
+---
+tags:
+  - Combattimento
+  - Salute
+  - Buff e Debuff
+  - Da verificare
+  - Tabelle
+---
+
 # Buff, Debuff e Injury (Buffs & Debuffs)
 
 I crawler ottengono o subiscono spesso effetti di stato che cambiano il loro rendimento. Si chiamano rispettivamente **Buff** e **Debuff**.

@@ -1,3 +1,11 @@
+---
+tags:
+  - Regole base
+  - Azioni
+  - Da verificare
+  - Tabelle
+---
+
 # Tempo e Azioni (Time, Actions)
 
 ## Tempo (Time)

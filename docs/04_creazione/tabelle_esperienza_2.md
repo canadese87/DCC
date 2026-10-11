@@ -1,3 +1,9 @@
+---
+tags:
+  - Creazione personaggio
+  - Tabelle
+---
+
 # Tabelle di esperienza: Luoghi, Trappole, Interview
 
 Le tabelle seguenti sono usate con le regole della sezione *Tutorial Floor Experiences (regole)*. Per ogni riga: tre Skill o Spell suggerite, una Skill personalizzata (quarta voce) e una descrizione sintetica dell'evento.

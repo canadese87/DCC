@@ -1,3 +1,10 @@
+---
+tags:
+  - Artefatti
+  - Da verificare
+  - Tabelle
+---
+
 # Artefatti divini, cristalli e oggetti delle Faction Wars
 
 ## Artifacts of the Gods

@@ -1,3 +1,11 @@
+---
+tags:
+  - Combattimento
+  - Salute
+  - Da verificare
+  - Tabelle
+---
+
 # Salute (Health Menu)
 
 L'Health Menu di ogni personaggio è accessibile ogni volta che può accedere al proprio HUD. Indica gli stati attivi (Buff, Debuff e Injury). Nel gioco l'Health Menu comprende: Health Bar, Mana, Buff & Debuff e Injuries.

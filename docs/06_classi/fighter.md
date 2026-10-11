@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Fighter
+  - Da verificare
+---
+
 # Class Fighter
 
 ## Regole generali del gruppo

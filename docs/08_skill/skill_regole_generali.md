@@ -1,3 +1,8 @@
+---
+tags:
+  - Skill
+---
+
 # Skill: regole generali (Skills)
 
 Le Skill sono la base del sistema di gioco. Il crawler effettua una ==Skill Check== per compiere la maggior parte delle azioni e ottiene Upgrade aumentando il Rank delle Skill.

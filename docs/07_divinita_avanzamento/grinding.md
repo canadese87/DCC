@@ -1,3 +1,11 @@
+---
+tags:
+  - Avanzamento
+  - Grinding
+  - Da verificare
+  - Tabelle
+---
+
 # Grinding
 
 Il ==grinding== è l'attività di combattere ripetutamente i Mob di Level più basso disponibili per aumentare i Skill Ranks e, occasionalmente, salire di Level.

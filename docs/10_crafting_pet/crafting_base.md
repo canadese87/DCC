@@ -1,3 +1,10 @@
+---
+tags:
+  - Crafting
+  - Da verificare
+  - Tabelle
+---
+
 # Crafting: basi e crafting tables
 
 Il ==crafting== consente al crawler di convertire materiali (Misc. Junk, ingredienti, raw materials) in oggetti. Il crawler può creare oggetti mundane privi di benefici intrinseci oppure incantare oggetti con benefici magici.

@@ -1,3 +1,10 @@
+---
+tags:
+  - Pet
+  - Da verificare
+  - Tabelle
+---
+
 # Pets: ruolo, statistiche, progressione e comandi
 
 ## Ruolo del pet

@@ -1,3 +1,9 @@
+---
+tags:
+  - Skill
+  - Attack Skill
+---
+
 # Attack Skill: Ranged e Reach
 
 ## Ranged Weapon Skills

@@ -1,3 +1,11 @@
+---
+tags:
+  - Race
+  - Earth-based Race
+  - Da verificare
+  - Regole opzionali
+---
+
 # Earth-based Races: da Lajabless a Tigran
 
 Le Race di questa pagina appartengono al gruppo Earth-based Races: hanno accesso alla più ampia varietà di Class, incluse le Earth Class (vedi la pagina *Earth-based Races: da Amazonian a Doppelgänger* per le regole generali del gruppo).

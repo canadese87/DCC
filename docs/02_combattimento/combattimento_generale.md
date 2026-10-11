@@ -1,3 +1,9 @@
+---
+tags:
+  - Combattimento
+  - Tabelle
+---
+
 # Combattimento: principi generali (Combat)
 
 Il combattimento è una delle parti più strutturate del gioco.

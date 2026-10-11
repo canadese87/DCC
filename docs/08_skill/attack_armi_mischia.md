@@ -1,3 +1,10 @@
+---
+tags:
+  - Skill
+  - Attack Skill
+  - Da verificare
+---
+
 # Attack Skill: armi da mischia e Strike Skill
 
 Ogni arma è una Skill distinta; il nome dell'arma è il nome della Skill. Tutte le Attack Skill Check sono effettuate contro l'Evade del bersaglio. Il formato delle voci è descritto nella sezione *Attack Skill: regole e riepilogo*.

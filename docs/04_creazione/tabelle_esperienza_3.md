@@ -1,3 +1,9 @@
+---
+tags:
+  - Creazione personaggio
+  - Tabelle
+---
+
 # Tabelle di esperienza: Third e Fourth Floor
 
 Le tabelle seguenti sono usate con le regole della sezione *Tutorial Floor Experiences (regole)* per creare crawler di Fourth e Fifth Floor (vedi *Creazione di un crawler di Third Floor e oltre*). Per ogni riga: tre Skill o Spell suggerite, una Skill personalizzata (quarta voce) e una descrizione sintetica dell'evento.

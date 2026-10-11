@@ -1,3 +1,10 @@
+---
+tags:
+  - Popolarità
+  - Sponsor
+  - Tabelle
+---
+
 # Sponsor (Sponsors)
 
 ## Regole generali

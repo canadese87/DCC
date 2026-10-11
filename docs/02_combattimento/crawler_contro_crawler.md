@@ -1,3 +1,11 @@
+---
+tags:
+  - Combattimento
+  - PvP
+  - Da verificare
+  - Regole opzionali
+---
+
 # Crawler contro crawler (Crawler vs. Crawler)
 
 ## Crawler contro crawler GMC

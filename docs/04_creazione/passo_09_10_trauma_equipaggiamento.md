@@ -1,3 +1,9 @@
+---
+tags:
+  - Creazione personaggio
+  - Tabelle
+---
+
 # Passi 9–10: Past Trauma, Loose Ends, Regrets ed equipaggiamento
 
 ## Passo 9: Past Trauma, Loose Ends e Regrets

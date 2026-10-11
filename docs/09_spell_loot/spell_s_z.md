@@ -1,3 +1,8 @@
+---
+tags:
+  - Spell
+---
+
 # Spell: da Second Chance a Wisp Armor
 
 Elenco in ordine alfabetico, come nel manuale. Per i campi delle voci vedi la sezione *Spell: regole generali e riepilogo*.

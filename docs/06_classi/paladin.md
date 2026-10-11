@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Paladin
+  - Da verificare
+---
+
 # Class Paladin
 
 ## Regole generali del gruppo

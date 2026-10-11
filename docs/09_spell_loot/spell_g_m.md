@@ -1,3 +1,9 @@
+---
+tags:
+  - Spell
+  - Da verificare
+---
+
 # Spell: da Grand Illusion a Minion Army
 
 Elenco in ordine alfabetico, come nel manuale. Per i campi delle voci vedi la sezione *Spell: regole generali e riepilogo*.

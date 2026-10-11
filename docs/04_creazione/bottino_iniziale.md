@@ -1,3 +1,12 @@
+---
+tags:
+  - Creazione personaggio
+  - Loot
+  - Da verificare
+  - Tabelle
+  - Regole opzionali
+---
+
 # Bottino iniziale (Acquired Loot)
 
 Il bottino iniziale rappresenta ciò che il crawler ha raccolto sulle Tutorial Floors. Va determinato **prima** di scegliere Race e Class.

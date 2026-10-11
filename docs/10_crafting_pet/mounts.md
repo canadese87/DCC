@@ -1,3 +1,9 @@
+---
+tags:
+  - Mount
+  - Tabelle
+---
+
 # Mounts
 
 Un mount è un animale cavalcabile. Un mount dedicato costa molto e non ha progressione.

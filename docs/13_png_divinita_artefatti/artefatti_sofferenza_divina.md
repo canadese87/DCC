@@ -1,3 +1,10 @@
+---
+tags:
+  - Artefatti
+  - Da verificare
+  - Tabelle
+---
+
 # Artefatti della Divine Suffering (Artifacts of Divine Suffering)
 
 Gli ==Artifacts of Divine Suffering== sono oggetti che forniscono potenti bonus permanenti per l'uccisione di altri crawler.

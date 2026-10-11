@@ -1,3 +1,10 @@
+---
+tags:
+  - Dungeon
+  - Da verificare
+  - Tabelle
+---
+
 # Interfaccia del Crawler (The Crawler Interface)
 
 ## Ingresso nel World Dungeon

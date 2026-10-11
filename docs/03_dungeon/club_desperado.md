@@ -1,3 +1,10 @@
+---
+tags:
+  - Dungeon
+  - Club
+  - Tabelle
+---
+
 # Desperado Club
 
 ## Caratteristiche generali

@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Bard
+  - Da verificare
+---
+
 # Class Bard
 
 ## Regole generali del gruppo

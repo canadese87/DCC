@@ -1,3 +1,10 @@
+---
+tags:
+  - Crafting
+  - Tabelle
+  - Regole opzionali
+---
+
 # Crafting specialistico
 
 Il crafting specialistico usa tutte le regole generali, con le eccezioni indicate di seguito. Alcuni oggetti possono richiedere più Skill e quindi più table.

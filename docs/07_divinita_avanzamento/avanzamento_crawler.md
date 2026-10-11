@@ -1,3 +1,10 @@
+---
+tags:
+  - Avanzamento
+  - Da verificare
+  - Tabelle
+---
+
 # Avanzamento del crawler (Crawler Advancement)
 
 Il crawler migliora continuamente le proprie Stat. Le Skill sono facili da aumentare nei primi Rank e poi avanzano più lentamente. Le regole di Grinding sono nella pagina *Grinding*.

@@ -1,3 +1,10 @@
+---
+tags:
+  - Skill
+  - Utility Skill
+  - Da verificare
+---
+
 # Utility Skill R–Z
 
 ## Skill da Regeneration a Salvage

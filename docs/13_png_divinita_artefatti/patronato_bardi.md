@@ -1,3 +1,10 @@
+---
+tags:
+  - Bard Patronage
+  - Bard
+  - Tabelle
+---
+
 # Patronato dei Bardi (Bard Patronage)
 
 Le Class Bard includono l'opzione di acquisire un ==patron==, che comporta benefici e obblighi.

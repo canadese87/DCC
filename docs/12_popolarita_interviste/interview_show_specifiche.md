@@ -1,3 +1,9 @@
+---
+tags:
+  - Popolarità
+  - Interview Show
+---
+
 # Interview Shows: show specifiche
 
 Cinque show sono descritte in dettaglio. Per ciascuna sono riportati formato, ambientazione del set, obiettivi dell'host per Floor, scene possibili nella green room, reazione ai PC e risultati. Le domande di esempio, le personalità e i legami personali degli host sono omessi. Le regole generali (Tabelle 56-61, condizioni di ospitata) sono nella sezione *Interview Shows: regole generali*.

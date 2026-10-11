@@ -1,3 +1,11 @@
+---
+tags:
+  - Race
+  - Earth-based Race
+  - Da verificare
+  - Regole opzionali
+---
+
 # Earth-based Races: da Amazonian a Doppelgänger
 
 ## Regole generali delle Earth-based Races

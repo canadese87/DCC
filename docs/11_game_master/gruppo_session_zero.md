@@ -1,3 +1,9 @@
+---
+tags:
+  - Game Master
+  - Session Zero
+---
+
 # Formazione del gruppo e Session Zero
 
 ## Composizione del gruppo (Gathering the Party)

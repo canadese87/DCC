@@ -1,3 +1,10 @@
+---
+tags:
+  - Creazione personaggio
+  - Tabelle
+  - Regole opzionali
+---
+
 # Creazione del personaggio: panoramica
 
 Il capitolo descrive la creazione di un crawler, la sua personalizzazione e il suo avanzamento. La procedura di base produce un crawler di Floor 1 (Level 1). Le sezioni successive descrivono come ottenere un crawler pronto per la Third Floor (Level 10) o per le Floor successive.

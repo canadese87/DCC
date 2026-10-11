@@ -1,3 +1,12 @@
+---
+tags:
+  - Game Master
+  - Trappole
+  - Interazione sociale
+  - Da verificare
+  - Tabelle
+---
+
 # Scene sociali, enigmi e trappole
 
 ## Scene sociali (Running Social Scenes)

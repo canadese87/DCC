@@ -1,3 +1,11 @@
+---
+tags:
+  - Combattimento
+  - Veicoli
+  - Da verificare
+  - Tabelle
+---
+
 # Veicoli (Vehicles)
 
 ## Regole generali

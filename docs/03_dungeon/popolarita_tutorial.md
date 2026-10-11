@@ -1,3 +1,10 @@
+---
+tags:
+  - Dungeon
+  - Popolarità
+  - Tabelle
+---
+
 # Popularity e Tutorial Levels (Popularity, The Tutorial Levels)
 
 ## Popularity

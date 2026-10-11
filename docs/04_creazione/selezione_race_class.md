@@ -1,3 +1,12 @@
+---
+tags:
+  - Creazione personaggio
+  - Race
+  - Class
+  - Da verificare
+  - Regole opzionali
+---
+
 # Selezione di Race e Class (regole generali)
 
 Questa sezione contiene le regole generali di selezione di Race e Class. Le singole Race e Class sono descritte in altre sezioni del manuale.

@@ -1,3 +1,9 @@
+---
+tags:
+  - Regole base
+  - Tabelle
+---
+
 # Dadi e Stat (Dice, The Five Core Stats)
 
 ## Principio generale

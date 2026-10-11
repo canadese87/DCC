@@ -1,3 +1,9 @@
+---
+tags:
+  - Game Master
+  - Morte
+---
+
 # Gestione di regole, patch e morte dei PC
 
 Questa sezione raccoglie le procedure del capitolo "Players and Problems" relative ad arbitrato delle regole, modifica delle regole e morte dei personaggi. I consigli sui tipi di giocatore, sul bilanciamento dello spotlight e sui conflitti tra giocatori non contengono regole e sono omessi.

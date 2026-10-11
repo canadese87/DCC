@@ -1,3 +1,9 @@
+---
+tags:
+  - Game Master
+  - Grinding
+---
+
 # Montaggi e Grinding per l'esperienza (Montages and Grinding for Experience)
 
 ## Montage

@@ -1,3 +1,11 @@
+---
+tags:
+  - Avanzamento
+  - Divinità
+  - Da verificare
+  - Tabelle
+---
+
 # Profili delle divinità (Deities)
 
 Esistono molte divinità nel Crawl, alcune basate su divinità della Terra. Le seguenti sono esempi di divinità che un crawler può venerare. Per ciascuna sono riportati solo i dati meccanici. Le regole generali di culto (offerte, decime, ranghi) sono nella pagina *Divinità e culto*.

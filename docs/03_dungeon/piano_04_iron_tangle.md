@@ -1,3 +1,11 @@
+---
+tags:
+  - Dungeon
+  - Floor 4
+  - Da verificare
+  - Tabelle
+---
+
 # Fourth Floor: Iron Tangle
 
 !!! warning "Da verificare"

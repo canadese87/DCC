@@ -1,3 +1,11 @@
+---
+tags:
+  - Regole base
+  - Interazione sociale
+  - Da verificare
+  - Tabelle
+---
+
 # Interazione sociale (Social Interaction)
 
 I crawler incontrano e parlano con molti personaggi, dentro e fuori il dungeon (ad esempio contrattare con un mercante NPC o insultare il Maestro durante il suo programma per ottenere fans). L'interazione sociale avviene principalmente tramite **roleplaying** e **Skill Check**.

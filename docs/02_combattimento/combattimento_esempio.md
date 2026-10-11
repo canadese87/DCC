@@ -1,3 +1,8 @@
+---
+tags:
+  - Combattimento
+---
+
 # Regole richiamate dall'esempio di combattimento (Mob Combat Example)
 
 Il manuale contiene un esempio di combattimento contro Mob (pp. 88–92). Questa pagina riporta solo le regole e i chiarimenti procedurali che l'esempio richiama o precisa. Per i dettagli completi vedi le sezioni *Il round di combattimento*, *Attacchi, modificatori e danno* e *Salute*.

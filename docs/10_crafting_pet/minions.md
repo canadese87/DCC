@@ -1,3 +1,8 @@
+---
+tags:
+  - Minion
+---
+
 # Minions
 
 ## Acquisizione

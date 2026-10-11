@@ -1,3 +1,9 @@
+---
+tags:
+  - Creazione personaggio
+  - Tabelle
+---
+
 # Passi 3–4: Stat ed Evade
 
 ## Passo 3: scelta delle Stat

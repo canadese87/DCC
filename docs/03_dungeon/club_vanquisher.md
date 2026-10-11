@@ -1,3 +1,10 @@
+---
+tags:
+  - Dungeon
+  - Club
+  - Tabelle
+---
+
 # Club Vanquisher
 
 ## Caratteristiche generali

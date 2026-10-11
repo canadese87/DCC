@@ -1,3 +1,9 @@
+---
+tags:
+  - Race
+  - Tabelle
+---
+
 # Riepilogo delle Race (Races)
 
 ## Tabella comparativa

@@ -1,3 +1,9 @@
+---
+tags:
+  - Pet
+  - Tabelle
+---
+
 # Pets: acquisizione e attitudine
 
 Un crawler può avere **un solo pet**, salvo che un beneficio o una Class indichi diversamente.

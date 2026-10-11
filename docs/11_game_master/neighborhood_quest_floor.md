@@ -1,3 +1,10 @@
+---
+tags:
+  - Game Master
+  - Neighborhood e Quest
+  - Tabelle
+---
+
 # Neighborhood, Quest e Floor
 
 Neighborhood e Quest sono scenari semipreparati (par-baked): non sono completamente mappati, ma collegano Mob, Boss, luoghi e NPC. Ciascuno richiede circa 20–30 minuti di lettura e circa 30 minuti di preparazione, ed equivale a materiale per una serata di gioco. Un insieme di Neighborhood e Quest forma un Floor.

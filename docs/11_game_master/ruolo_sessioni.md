@@ -1,3 +1,8 @@
+---
+tags:
+  - Game Master
+---
+
 # Ruolo del GM e struttura del gioco
 
 Questa sezione riassume i compiti del Game Master (GM) e la struttura di sessioni, one-shot e campagne. I consigli generici di conduzione sono omessi; sono riportate solo procedure, limiti e indicazioni operative.

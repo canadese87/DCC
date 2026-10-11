@@ -1,3 +1,9 @@
+---
+tags:
+  - Spell
+  - Da verificare
+---
+
 # Spell: da Nature's Breath a Rootfoot
 
 Elenco in ordine alfabetico, come nel manuale. Per i campi delle voci vedi la sezione *Spell: regole generali e riepilogo*.

@@ -1,3 +1,10 @@
+---
+tags:
+  - Combattimento
+  - Da verificare
+  - Tabelle
+---
+
 # Il round di combattimento (Combat Steps)
 
 ## Step 1: Mob Action Declaration

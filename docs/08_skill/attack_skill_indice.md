@@ -1,3 +1,10 @@
+---
+tags:
+  - Skill
+  - Attack Skill
+  - Tabelle
+---
+
 # Attack Skill: regole e riepilogo
 
 Le Attack Skill rappresentano la capacità di danneggiare, disabilitare o fermare un bersaglio, con armi, pugni o altri mezzi offensivi. Ogni arma è una Skill distinta: il nome dell'arma è anche il nome della Skill usata per impugnarla. Il Rank non si condivide tra armi dello stesso tipo.

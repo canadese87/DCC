@@ -8,11 +8,16 @@ theme:
     - search.highlight
     - content.tabs.link
     - content.tooltips
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.path
     - navigation.sections
     - navigation.top
     - navigation.footer
     - content.code.copy
     - toc.follow
+    - search.share
     - header.autohide
 
   language: it
@@ -32,12 +37,16 @@ theme:
 
 plugins:
   - search
+  - tags
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path: [includes]
+      auto_append: [glossary.md]
+  - abbr
   - admonition
   - pymdownx.arithmatex:
       generic: true
@@ -50,8 +59,21 @@ markdown_extensions:
   - toc:
       permalink: true
 
+hooks:
+  - hooks/autolink.py
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/enhance.js
+
+validation:
+  anchors: warn
+
 nav:
 - Home: index.md
+- Riferimento rapido: riferimento_rapido.md
 - Regole base:
   - Introduzione: 01_basi/introduzione.md
   - Dadi e Stat: 01_basi/dadi_stat.md
@@ -179,3 +201,4 @@ nav:
   - Stat Block e scaling degli encounter: 11_game_master/stat_block_scaling.md
   - Creare Mob e Boss: 11_game_master/creare_mob_boss.md
   - Gestione di regole, patch e morte dei PC: 11_game_master/arbitrato_patch_morte.md
+- Indice dei tag: tags.md

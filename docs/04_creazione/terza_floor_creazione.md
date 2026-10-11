@@ -1,3 +1,13 @@
+---
+tags:
+  - Creazione personaggio
+  - Floor 3
+  - Floor 4
+  - Floor 5
+  - Da verificare
+  - Tabelle
+---
+
 # Creazione di un crawler di Third Floor e oltre
 
 Un crawler che inizia alla Third Floor (o oltre) ha già affrontato le Tutorial Floors: ha ottenuto Rank di Skill, nuove Spell e bottino. Questa sezione descrive come rappresentare tale esperienza in fase di creazione.

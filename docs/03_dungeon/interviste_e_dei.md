@@ -1,3 +1,9 @@
+---
+tags:
+  - Dungeon
+  - Tabelle
+---
+
 # Interviste fuori dal dungeon e Gods (Interviews Outside the Dungeon, Gods)
 
 ## Interviste fuori dal dungeon

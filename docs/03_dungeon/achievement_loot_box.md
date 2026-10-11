@@ -1,3 +1,10 @@
+---
+tags:
+  - Dungeon
+  - Loot
+  - Tabelle
+---
+
 # Achievement e Loot Box (Achievements & Loot Boxes)
 
 ## Achievement

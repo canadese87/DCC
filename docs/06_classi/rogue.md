@@ -1,3 +1,9 @@
+---
+tags:
+  - Class
+  - Rogue
+---
+
 # Class Rogue
 
 ## Regole generali del gruppo

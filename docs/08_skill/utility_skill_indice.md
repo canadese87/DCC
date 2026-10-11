@@ -1,3 +1,10 @@
+---
+tags:
+  - Skill
+  - Utility Skill
+  - Tabelle
+---
+
 # Utility Skill: regole e riepilogo
 
 Le Utility Skill aiutano i crawler a sopravvivere, adattarsi e risolvere problemi che non si risolvono colpendo finché il bersaglio smette di muoversi.

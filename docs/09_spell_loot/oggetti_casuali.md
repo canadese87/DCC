@@ -1,3 +1,10 @@
+---
+tags:
+  - Loot
+  - Da verificare
+  - Tabelle
+---
+
 # Oggetti magici casuali
 
 Gli oggetti magici di Gear trovati nelle loot box e nei treasure chest offrono in genere un numero di benefici determinato dal Tier della loot box di provenienza. Si tira un numero di volte, in base alla rarità, sulla tabella relativa al tipo di oggetto Enchanted (Tabelle 38–42).

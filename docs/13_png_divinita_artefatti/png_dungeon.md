@@ -1,3 +1,9 @@
+---
+tags:
+  - PNG
+  - Tabelle
+---
+
 # PNG del dungeon (Dungeon NPCs)
 
 Sono riportati solo i dati meccanici e le condizioni d'uso dei PNG amministrativi e di servizio. Le descrizioni di personalità e background sono omesse.

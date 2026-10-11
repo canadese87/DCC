@@ -1,3 +1,10 @@
+---
+tags:
+  - Creazione personaggio
+  - Da verificare
+  - Tabelle
+---
+
 # Tutorial Floor Experiences (regole)
 
 Ogni voce delle tabelle di esperienza rappresenta un evento raro, insolito o significativo che può verificarsi sulle Tutorial Floors. Il giocatore può reinterpretare o modificare ciascun evento e fornire dettagli al GM su incontri e circostanze.

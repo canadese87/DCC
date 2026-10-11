@@ -1,3 +1,9 @@
+---
+tags:
+  - Race
+  - Alien Race
+---
+
 # Alien Races
 
 ## Regole generali delle Alien Races

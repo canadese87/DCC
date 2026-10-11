@@ -1,3 +1,11 @@
+---
+tags:
+  - Skill
+  - Attack Skill
+  - Esplosivi
+  - Da verificare
+---
+
 # Attack Skill: esplosivi e fumo
 
 ## Explosives Skills

@@ -1,3 +1,10 @@
+---
+tags:
+  - Creazione personaggio
+  - Da verificare
+  - Tabelle
+---
+
 # Passo 2: arma e Skill di combattimento
 
 Il crawler ottiene almeno una Skill utilizzabile in combattimento.

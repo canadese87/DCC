@@ -1,3 +1,10 @@
+---
+tags:
+  - Regole base
+  - Check
+  - Tabelle
+---
+
 # Meccanica base: i Check (The Core Mechanic)
 
 Quando un crawler tenta di influire sulla situazione in cui si trova e emergono possibilità interessanti o pericolose, si effettua un **Check**.

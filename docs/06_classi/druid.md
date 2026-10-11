@@ -1,3 +1,10 @@
+---
+tags:
+  - Class
+  - Druid
+  - Da verificare
+---
+
 # Class Druid
 
 ## Regole generali del gruppo
